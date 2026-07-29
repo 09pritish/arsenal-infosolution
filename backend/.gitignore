@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Uploaded resumes (runtime data, should not be committed)
+uploads/resumes/*
+!uploads/resumes/.gitkeep
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Runtime
+*.pid
+*.seed
+*.pid.lock

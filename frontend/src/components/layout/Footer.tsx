@@ -1,0 +1,218 @@
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { Logo } from '../common/Logo';
+import { COMPANY_INFO, SOLUTIONS } from '../../data/companyData';
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Clock,
+  ArrowRight,
+  ShieldCheck,
+  CheckCircle2,
+  Linkedin,
+  Twitter,
+  Facebook
+} from 'lucide-react';
+
+export const Footer: React.FC = () => {
+  const [subscribedEmail, setSubscribedEmail] = useState('');
+  const [subscribeSuccess, setSubscribeSuccess] = useState(false);
+
+  const handleSubscribe = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (subscribedEmail) {
+      setSubscribeSuccess(true);
+      setTimeout(() => setSubscribeSuccess(false), 4000);
+      setSubscribedEmail('');
+    }
+  };
+
+  return (
+    <footer className="bg-[#0A192F] text-slate-300 font-body pt-16 pb-8 border-t border-slate-800">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Top Newsletter / CTA Bar */}
+        <div className="bg-gradient-to-r from-[#0F3D91] to-[#0A66C2] rounded-2xl p-8 sm:p-10 mb-16 shadow-xl flex flex-col lg:flex-row items-center justify-between gap-8">
+          <div className="max-w-xl">
+            <span className="text-xs font-semibold uppercase tracking-widest text-blue-200 bg-white/10 px-3 py-1 rounded-full border border-white/20 mb-3 inline-block">
+              Enterprise Technology Newsletter
+            </span>
+            <h3 className="text-2xl sm:text-3xl font-heading font-extrabold text-white">
+              Stay ahead in Cloud, Cybersecurity & Data Center Infrastructure.
+            </h3>
+            <p className="text-blue-100 text-sm mt-2">
+              Receive quarterly technical whitepapers, OEM release advisories, and architecture guidelines.
+            </p>
+          </div>
+
+          <form onSubmit={handleSubscribe} className="w-full lg:w-auto flex flex-col sm:flex-row gap-3 min-w-[320px] sm:min-w-[420px]">
+            {subscribeSuccess ? (
+              <div className="bg-white/10 border border-white/30 text-white rounded-lg p-3 text-center text-sm font-medium w-full flex items-center justify-center gap-2">
+                <CheckCircle2 className="w-5 h-5 text-emerald-400" />
+                <span>Subscribed! Check your inbox for confirmation.</span>
+              </div>
+            ) : (
+              <>
+                <input
+                  type="email"
+                  required
+                  placeholder="Enter corporate email..."
+                  value={subscribedEmail}
+                  onChange={(e) => setSubscribedEmail(e.target.value)}
+                  className="px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-blue-200 text-sm focus:outline-none focus:ring-2 focus:ring-white flex-1"
+                />
+                <button
+                  type="submit"
+                  className="bg-white text-[#0A66C2] hover:bg-blue-50 font-heading font-bold px-6 py-3 rounded-lg text-sm transition-colors flex items-center justify-center gap-2 cursor-pointer shrink-0"
+                >
+                  <span>Subscribe</span>
+                  <ArrowRight className="w-4 h-4" />
+                </button>
+              </>
+            )}
+          </form>
+        </div>
+
+        {/* Main Footer Links Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800">
+          {/* Column 1: Company Profile */}
+          <div className="lg:col-span-2 space-y-4">
+            <Logo variant="light" size="lg" />
+            <p className="text-sm text-slate-400 leading-relaxed max-w-sm">
+              Arsenal Infosolutions is one of the leading and the fastest growing system integration firm in India. Customer satisfaction is the key to all our endeavours.
+            </p>
+            <div className="pt-2 flex items-center gap-3">
+              <a
+                href={COMPANY_INFO.socialLinks.linkedin}
+                target="_blank"
+                rel="noreferrer"
+                className="w-9 h-9 rounded-lg bg-slate-800/80 hover:bg-[#0A66C2] text-slate-300 hover:text-white flex items-center justify-center transition-colors"
+                aria-label="LinkedIn Profile"
+              >
+                <Linkedin className="w-4 h-4" />
+              </a>
+              <a
+                href={COMPANY_INFO.socialLinks.twitter}
+                target="_blank"
+                rel="noreferrer"
+                className="w-9 h-9 rounded-lg bg-slate-800/80 hover:bg-[#0A66C2] text-slate-300 hover:text-white flex items-center justify-center transition-colors"
+                aria-label="Twitter Profile"
+              >
+                <Twitter className="w-4 h-4" />
+              </a>
+              <a
+                href={COMPANY_INFO.socialLinks.facebook}
+                target="_blank"
+                rel="noreferrer"
+                className="w-9 h-9 rounded-lg bg-slate-800/80 hover:bg-[#0A66C2] text-slate-300 hover:text-white flex items-center justify-center transition-colors"
+                aria-label="Facebook Profile"
+              >
+                <Facebook className="w-4 h-4" />
+              </a>
+            </div>
+          </div>
+
+          {/* Column 2: Solutions */}
+          <div>
+            <h4 className="font-heading font-bold text-white text-base mb-4 tracking-wide uppercase text-xs text-blue-400">
+              Technology Solutions
+            </h4>
+            <ul className="space-y-2.5 text-sm font-body">
+              {SOLUTIONS.map((sol) => (
+                <li key={sol.id}>
+                  <Link
+                to={`/solutions/${sol.slug}`}
+                    className="text-slate-400 hover:text-white transition-colors"
+                  >
+                    {sol.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Column 3: Quick Navigation */}
+          <div>
+            <h4 className="font-heading font-bold text-white text-base mb-4 tracking-wide uppercase text-xs text-blue-400">
+              Corporate Navigation
+            </h4>
+            <ul className="space-y-2.5 text-sm font-body">
+              <li>
+                <Link to="/about" className="text-slate-400 hover:text-white transition-colors">
+                  About Arsenal
+                </Link>
+              </li>
+              <li>
+                <Link to="/partners" className="text-slate-400 hover:text-white transition-colors">
+                  Partners
+                </Link>
+              </li>
+              <li>
+                <Link to="/clients" className="text-slate-400 hover:text-white transition-colors">
+                  Clients
+                </Link>
+              </li>
+              <li>
+                <Link to="/request-demo" className="text-slate-400 hover:text-white transition-colors">
+                  Request a Demo
+                </Link>
+              </li>
+              <li>
+                <Link to="/careers" className="text-slate-400 hover:text-white transition-colors">
+                  Careers
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="text-slate-400 hover:text-white transition-colors">
+                  Contact Us
+                </Link>
+              </li>
+              <li>
+                <Link to="/" className="text-slate-400 hover:text-white transition-colors">Home</Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Column 4: Contact & HQ Info */}
+          <div>
+            <h4 className="font-heading font-bold text-white text-base mb-4 tracking-wide uppercase text-xs text-blue-400">
+              Corporate Headquarters
+            </h4>
+            <ul className="space-y-3 text-xs font-body text-slate-400">
+              <li className="flex items-start gap-2.5">
+                <MapPin className="w-4 h-4 text-[#0A66C2] shrink-0 mt-0.5" />
+                <span>{COMPANY_INFO.address}</span>
+              </li>
+              <li className="flex items-center gap-2.5">
+                <Phone className="w-4 h-4 text-[#0A66C2] shrink-0" />
+                <span>{COMPANY_INFO.phone}</span>
+              </li>
+              <li className="flex items-center gap-2.5">
+                <Phone className="w-4 h-4 text-[#0A66C2] shrink-0" />
+                <span>Toll Free: {COMPANY_INFO.tollFree}</span>
+              </li>
+              <li className="flex items-center gap-2.5">
+                <Mail className="w-4 h-4 text-[#0A66C2] shrink-0" />
+                <span>{COMPANY_INFO.email}</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Bottom Bar: OEM Partner Badges & Copyright */}
+        <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500 font-body">
+          <div className="flex items-center gap-2">
+            <ShieldCheck className="w-4 h-4 text-[#0A66C2]" />
+            <span>Arsenal Infosolutions Pvt. Ltd.</span>
+          </div>
+
+          <div className="flex items-center gap-6">
+            <span>© AIPL 2017-2024 | Arsenal Infosolutions Pvt. Ltd.</span>
+            <a href="#" className="hover:text-slate-300">Privacy Policy</a>
+            <a href="#" className="hover:text-slate-300">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};

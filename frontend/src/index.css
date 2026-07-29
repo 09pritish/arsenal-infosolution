@@ -1,0 +1,173 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Manrope", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --color-primary-blue: #0A66C2;
+  --color-dark-blue: #0F3D91;
+  --color-light-blue: #EAF4FF;
+  --color-bg-light: #F8FAFC;
+  --color-heading-dark: #1E293B;
+  --color-body-text: #475569;
+  --color-border-line: #E2E8F0;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-bg-light);
+    color: var(--color-body-text);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: var(--color-heading-dark);
+  }
+}
+
+/* Custom Utilities for Fortune 500 Aesthetics */
+.font-heading {
+  font-family: 'Manrope', sans-serif;
+}
+
+.font-body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom subtle glass-like container without heavy blur/neon */
+.enterprise-card {
+  background-color: #ffffff;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.03), 0 1px 2px -1px rgba(15, 23, 42, 0.03);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.enterprise-card:hover {
+  border-color: #CBD5E1;
+  box-shadow: 0 10px 25px -5px rgba(10, 102, 194, 0.08), 0 8px 10px -6px rgba(10, 102, 194, 0.04);
+  transform: translateY(-2px);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0A66C2;
+}
+
+/* Continuous Infinite Marquee Animations for Partner Logos */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 60s linear infinite;
+}
+
+.animate-marquee-reverse {
+  display: flex;
+  width: max-content;
+  animation: marquee-reverse 60s linear infinite;
+}
+
+.animate-marquee-slow,
+.animate-marquee-reverse-slow {
+  display: flex;
+  width: max-content;
+  animation: marquee 75s linear infinite;
+}
+
+.marquee-track {
+  overflow: hidden;
+  width: 100%;
+}
+
+.marquee-content {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  width: max-content;
+  animation: marquee 40s linear infinite;
+}
+
+.marquee-content.reverse {
+  animation: marquee-reverse 45s linear infinite;
+}
+
+.marquee-content.paused {
+  animation-play-state: paused !important;
+}
+
+.premium-marquee-track {
+  overflow: hidden;
+  width: 100%;
+}
+
+.premium-marquee-inner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: max-content;
+  animation: marquee 38s linear infinite;
+  will-change: transform;
+}
+
+.premium-marquee-inner.reverse {
+  animation: marquee-reverse 38s linear infinite;
+}
+
+.premium-marquee-inner.paused,
+.premium-marquee-track:hover .premium-marquee-inner {
+  animation-play-state: paused !important;
+}
+
+@keyframes bg-float {
+  0%, 100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-15px) translateX(15px);
+  }
+}
+
+.animate-bg-float {
+  animation: bg-float 18s ease-in-out infinite alternate;
+}
+
+/* Pause animation on hover or when paused class applied */
+.animate-marquee:hover,
+.animate-marquee-reverse:hover,
+.animate-marquee-slow:hover,
+.marquee-paused {
+  animation-play-state: paused !important;
+}
