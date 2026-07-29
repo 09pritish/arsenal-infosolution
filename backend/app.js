@@ -111,7 +111,7 @@ app.use("/api/careers", careerRoutes);
 // SERVE REACT FRONTEND (Production)
 // -----------------------------------------------------------------------------
 
-const frontendPath = path.join(__dirname, "frontend", "dist");
+const frontendPath = path.join(__dirname, "../frontend", "dist");
 
 // Serve static React files
 app.use(express.static(frontendPath));

@@ -6,9 +6,9 @@
   "type": "module",
  "scripts": {
   "dev": "node --watch server.js",
-  "build": "cd frontend && npm install && npm run build",
+  "build": "cd ../frontend && npm install && npm run build",
   "start": "node server.js"
-  },
+},
   "keywords": [
     "nodejs",
     "express",
