@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 import { SOLUTION_DETAIL_MAP } from '../data/solutions/solutionData';
 import { Button } from '../components/common/Button';
+import { PageBackgroundEffects } from '../components/common/PageBackgroundEffects';
 
 interface SolutionDetailPageProps { onOpenQuoteModal?: (solutionId?: string) => void; }
 
@@ -12,13 +13,16 @@ export const SolutionDetailPage: React.FC<SolutionDetailPageProps> = ({ onOpenQu
 
   if (!solution) {
     return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <h1 className="text-3xl font-heading font-extrabold text-[#1E293B]">Solution not found</h1>
-        <p className="mt-4 text-sm text-[#475569]">Please return to the solutions overview or select another solution.</p>
-        <div className="mt-6">
-          <Link to="/solutions">
-            <Button variant="primary">View All Solutions</Button>
-          </Link>
+      <div className="relative overflow-hidden py-20">
+        <PageBackgroundEffects />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h1 className="text-3xl font-heading font-extrabold text-[#1E293B]">Solution not found</h1>
+          <p className="mt-4 text-sm text-[#475569]">Please return to the solutions overview or select another solution.</p>
+          <div className="mt-6">
+            <Link to="/solutions">
+              <Button variant="primary">View All Solutions</Button>
+            </Link>
+          </div>
         </div>
       </div>
     );
@@ -26,8 +30,9 @@ export const SolutionDetailPage: React.FC<SolutionDetailPageProps> = ({ onOpenQu
 
   return (
     <div className="space-y-16 pb-20">
-      <section className="bg-gradient-to-b from-[#EAF4FF]/60 via-[#F8FAFC] to-[#F8FAFC] py-16 sm:py-20 border-b border-[#E2E8F0]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+      <section className="relative overflow-hidden bg-gradient-to-b from-[#F8FAFC] via-[#EAF4FF]/40 to-[#F8FAFC] py-16 sm:py-20 border-b border-[#E2E8F0]">
+        <PageBackgroundEffects />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div>
             <span className="text-xs font-semibold uppercase tracking-widest text-[#0A66C2] bg-[#EAF4FF] px-3 py-1 rounded-full border border-blue-200">
               Solutions

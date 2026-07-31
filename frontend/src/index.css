@@ -13,6 +13,10 @@
   --color-border-line: #E2E8F0;
 }
 
+/* ================================================= */
+/* Base */
+/* ================================================= */
+
 @layer base {
   body {
     font-family: var(--font-body);
@@ -20,154 +24,306 @@
     color: var(--color-body-text);
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: var(--font-heading);
     color: var(--color-heading-dark);
   }
 }
 
-/* Custom Utilities for Fortune 500 Aesthetics */
 .font-heading {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .font-body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
-/* Custom subtle glass-like container without heavy blur/neon */
+/* ================================================= */
+/* Enterprise Card */
+/* ================================================= */
+
 .enterprise-card {
-  background-color: #ffffff;
+  background: white;
   border: 1px solid #E2E8F0;
-  border-radius: 0.75rem;
-  box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.03), 0 1px 2px -1px rgba(15, 23, 42, 0.03);
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  border-radius: .75rem;
+  box-shadow:
+    0 1px 3px rgba(15,23,42,.03),
+    0 1px 2px rgba(15,23,42,.03);
+  transition: .25s cubic-bezier(.16,1,.3,1);
 }
 
 .enterprise-card:hover {
   border-color: #CBD5E1;
-  box-shadow: 0 10px 25px -5px rgba(10, 102, 194, 0.08), 0 8px 10px -6px rgba(10, 102, 194, 0.04);
   transform: translateY(-2px);
+  box-shadow:
+    0 12px 32px rgba(10,102,194,.08),
+    0 6px 12px rgba(10,102,194,.05);
 }
 
-/* Scrollbar styling */
+/* ================================================= */
+/* Scrollbar */
+/* ================================================= */
+
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width:8px;
+  height:8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #F1F5F9;
+  background:#F1F5F9;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #CBD5E1;
-  border-radius: 4px;
+  background:#CBD5E1;
+  border-radius:4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #0A66C2;
+  background:#0A66C2;
 }
 
-/* Continuous Infinite Marquee Animations for Partner Logos */
+/* ================================================= */
+/* Partner & Client Marquee */
+/* ================================================= */
+
 @keyframes marquee {
-  0% {
+  from {
     transform: translateX(0%);
   }
-  100% {
+  to {
     transform: translateX(-50%);
   }
 }
 
-@keyframes marquee-reverse {
-  0% {
+@keyframes marqueeReverse {
+  from {
     transform: translateX(-50%);
   }
-  100% {
+  to {
     transform: translateX(0%);
   }
-}
-
-.animate-marquee {
-  display: flex;
-  width: max-content;
-  animation: marquee 60s linear infinite;
-}
-
-.animate-marquee-reverse {
-  display: flex;
-  width: max-content;
-  animation: marquee-reverse 60s linear infinite;
-}
-
-.animate-marquee-slow,
-.animate-marquee-reverse-slow {
-  display: flex;
-  width: max-content;
-  animation: marquee 75s linear infinite;
-}
-
-.marquee-track {
-  overflow: hidden;
-  width: 100%;
-}
-
-.marquee-content {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  width: max-content;
-  animation: marquee 40s linear infinite;
-}
-
-.marquee-content.reverse {
-  animation: marquee-reverse 45s linear infinite;
-}
-
-.marquee-content.paused {
-  animation-play-state: paused !important;
 }
 
 .premium-marquee-track {
-  overflow: hidden;
-  width: 100%;
+  overflow:hidden;
+  width:100%;
 }
 
 .premium-marquee-inner {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  width: max-content;
-  animation: marquee 38s linear infinite;
-  will-change: transform;
+  display:flex;
+  align-items:center;
+  gap:1rem;
+  width:max-content;
+  animation:marquee 38s linear infinite;
+  will-change:transform;
 }
 
 .premium-marquee-inner.reverse {
-  animation: marquee-reverse 38s linear infinite;
+  animation:marqueeReverse 38s linear infinite;
 }
 
 .premium-marquee-inner.paused,
 .premium-marquee-track:hover .premium-marquee-inner {
-  animation-play-state: paused !important;
+  animation-play-state:paused !important;
 }
 
-@keyframes bg-float {
-  0%, 100% {
-    transform: translateY(0) translateX(0);
+/* ================================================= */
+/* Floating Background */
+/* ================================================= */
+
+@keyframes bgFloat {
+  0%,100%{
+    transform:translate(0,0);
   }
-  50% {
-    transform: translateY(-15px) translateX(15px);
+
+  50%{
+    transform:translate(15px,-15px);
   }
 }
 
-.animate-bg-float {
-  animation: bg-float 18s ease-in-out infinite alternate;
+.animate-bg-float{
+  animation:bgFloat 18s ease-in-out infinite alternate;
 }
 
-/* Pause animation on hover or when paused class applied */
-.animate-marquee:hover,
-.animate-marquee-reverse:hover,
-.animate-marquee-slow:hover,
-.marquee-paused {
-  animation-play-state: paused !important;
+/* ================================================= */
+/* Enterprise Hero Background */
+/* ================================================= */
+
+.enterprise-grid{
+  position:absolute;
+  inset:0;
+
+  background-image:
+      linear-gradient(rgba(10,102,194,.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(10,102,194,.05) 1px, transparent 1px);
+
+  background-size:64px 64px;
+  pointer-events:none;
+}
+
+.page-background-effects {
+  position:absolute;
+  inset:0;
+  overflow:hidden;
+  pointer-events:none;
+}
+
+.page-background-network {
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  opacity:.25;
+}
+
+.bg-glow{
+  position:absolute;
+  width:650px;
+  height:650px;
+  border-radius:9999px;
+  filter:blur(140px);
+  opacity:.16;
+  animation:glowMove 18s ease-in-out infinite;
+}
+
+.bg-glow-left{
+  left:-220px;
+  top:-120px;
+  background:#0A66C2;
+}
+
+.bg-glow-right{
+  right:-220px;
+  bottom:-180px;
+  background:#38BDF8;
+  animation-delay:6s;
+}
+
+@keyframes glowMove{
+  0%,100%{
+    transform:translate(0,0);
+  }
+
+  50%{
+    transform:translate(40px,-25px);
+  }
+}
+
+/* ================================================= */
+/* Animated Network */
+/* ================================================= */
+
+.network-svg{
+  opacity:.25;
+}
+
+.network-line{
+  fill:none;
+  stroke:rgba(10,102,194,.20);
+  stroke-width:2;
+  stroke-dasharray:8 10;
+  animation:networkFlow 8s linear infinite;
+}
+
+.network-node{
+  fill:#b9d8ff;
+  animation:nodePulse 3s ease-in-out infinite;
+}
+
+@keyframes networkFlow{
+  from{
+    stroke-dashoffset:80;
+  }
+
+  to{
+    stroke-dashoffset:0;
+  }
+}
+
+@keyframes nodePulse{
+  0%,100%{
+    transform:scale(1);
+    opacity:.45;
+  }
+
+  50%{
+    transform:scale(1.5);
+    opacity:1;
+  }
+}
+
+
+/* Gradient Animation */
+.animate-gradient{
+    background-size:200% 200%;
+    animation:gradientMove 12s ease infinite;
+}
+
+@keyframes gradientMove{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+/* Floating Particles */
+.floating-particle{
+    position:absolute;
+    width:5px;
+    height:5px;
+    border-radius:50%;
+    background:#60A5FA;
+    opacity:.45;
+    animation:particleFloat linear infinite;
+}
+
+@keyframes particleFloat{
+    from{
+        transform:translateY(0);
+        opacity:0;
+    }
+    20%{
+        opacity:.6;
+    }
+    to{
+        transform:translateY(-140px);
+        opacity:0;
+    }
+}
+
+/* Network */
+.network-line{
+    stroke:#60A5FA;
+    stroke-width:1.8;
+    stroke-dasharray:8 10;
+    animation:networkFlow 10s linear infinite;
+}
+
+.network-node{
+    fill:#60A5FA;
+    animation:nodePulse 4s ease-in-out infinite;
+}
+
+@keyframes networkFlow{
+    from{
+        stroke-dashoffset:100;
+    }
+    to{
+        stroke-dashoffset:0;
+    }
+}
+
+@keyframes nodePulse{
+    0%,100%{
+        opacity:.45;
+        transform:scale(1);
+    }
+    50%{
+        opacity:1;
+        transform:scale(1.5);
+    }
 }

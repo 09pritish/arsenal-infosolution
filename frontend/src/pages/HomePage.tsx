@@ -8,6 +8,7 @@ import { SolutionCard } from '../components/cards/SolutionCard';
 import { IndustryCard } from '../components/cards/IndustryCard';
 import { TestimonialCard } from '../components/cards/TestimonialCard';
 import { FAQAccordion } from '../components/common/FAQ';
+import { PageBackgroundEffects } from '../components/common/PageBackgroundEffects';
 import {
   SOLUTIONS,
   INDUSTRIES,
@@ -71,8 +72,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenQuoteModal }) => {
     <div className="space-y-20 pb-20">
       {/* HERO SECTION */}
       <section className="relative overflow-hidden bg-gradient-to-b from-[#F8FAFC] via-[#EAF4FF]/40 to-[#F8FAFC] pt-8 pb-20 md:py-20 border-b border-[#E2E8F0]">
-        {/* Subtle grid pattern overlay */}
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#e2e8f0_1px,transparent_1px),linear-gradient(to_bottom,#e2e8f0_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-60 pointer-events-none" />
+        <PageBackgroundEffects />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 gap-12">
@@ -197,14 +197,15 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenQuoteModal }) => {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-3xl border border-[#E2E8F0] shadow-md p-8 sm:p-12">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-            <div className="lg:col-span-12 space-y-4 text-center max-w-4xl mx-auto">
-              <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[#0A66C2] bg-[#EAF4FF] px-3.5 py-1 rounded-full border border-blue-200">
-                Company Profile
-              </span>
-              <h2 className="text-2xl sm:text-4xl font-heading font-extrabold text-[#1E293B]">
-                A Small brief about Arsenal
-              </h2>
-              <p className="text-[#475569] font-body text-base sm:text-lg leading-relaxed text-left sm:text-center pt-2">
+            <div className="lg:col-span-12 text-center max-w-4xl mx-auto">
+              <span className="inline-flex items-center px-4 py-1 rounded-full text-xs font-semibold uppercase tracking-[0.18em] text-[#0A66C2] bg-[#EAF4FF] border border-blue-200 mb-6">
+  Company Profile
+</span>
+
+<h2 className="text-2xl sm:text-4xl font-heading font-extrabold text-[#1E293B] leading-tight mb-8">
+  A Small Brief About Arsenal
+</h2>
+              <p className="text-[#475569] font-body text-base sm:text-lg leading-relaxed text-left sm:text-center">
                 Arsenal Infosolutions is one of the leading and the fastest growing system integration firm in India. The company provides a solution centric approach built around future ready technology areas of Cloud, Enterprise Networks, Collaboration, Workplace Automation and Knowledge Management. Customer satisfaction is the key to all our endeavours and we strive to exceed customer expectations through our experienced technically certified team.
               </p>
             </div>
@@ -235,6 +236,34 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenQuoteModal }) => {
       </section>
 
       <section className="relative overflow-hidden bg-[#0A192F] text-white py-20">
+        {/* Animated Background */}
+<div className="absolute inset-0 overflow-hidden pointer-events-none">
+
+  {/* Left Glow */}
+  <div className="bg-glow bg-glow-left" />
+
+  {/* Right Glow */}
+  <div className="bg-glow bg-glow-right" />
+
+  {/* Grid */}
+  <div className="enterprise-grid" />
+
+  {/* Floating Particles */}
+
+  {[...Array(18)].map((_, i) => (
+    <span
+      key={i}
+      className="floating-particle"
+      style={{
+        left: `${Math.random() * 100}%`,
+        top: `${Math.random() * 100}%`,
+        animationDelay: `${Math.random() * 10}s`,
+        animationDuration: `${10 + Math.random() * 10}s`
+      }}
+    />
+  ))}
+
+</div>
         <div className="pointer-events-none absolute inset-0 overflow-hidden">
           <div className="absolute -left-12 -top-12 h-72 w-72 rounded-full bg-blue-500/8 blur-3xl animate-bg-float" />
           <div className="absolute right-0 top-24 h-72 w-72 rounded-full bg-sky-500/8 blur-3xl animate-bg-float" style={{ animationDelay: '2s' }} />

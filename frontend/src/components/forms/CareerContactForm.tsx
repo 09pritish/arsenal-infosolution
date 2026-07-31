@@ -1,37 +1,74 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { Button } from '../common/Button';
-import { CheckCircle2, Send, Upload } from 'lucide-react';
+import { CheckCircle2, Send, Upload, AlertCircle } from 'lucide-react';
 import { CareerFormData } from '../../types';
 
+const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL || "http://localhost:5000";
+
 export const CareerContactForm: React.FC = () => {
+
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
   const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { errors },
+      register,
+      handleSubmit,
+      reset,
+      formState: { errors },
   } = useForm<CareerFormData>({
-    defaultValues: {
-      positionInterested: 'Systems Engineer',
-      agreeToTerms: true,
-    },
+      defaultValues: {
+          positionInterested: "Systems Engineer",
+          agreeToTerms: true,
+      },
   });
 
   const [resumeName, setResumeName] = useState<string | null>(null);
 
   const onSubmit = async (data: CareerFormData) => {
-    setLoading(true);
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    console.log('Career application submitted:', {
-      ...data,
-      resumeName,
+  setLoading(true);
+  setSubmitError(null);
+
+  try {
+    const formData = new FormData();
+
+    formData.append("name", data.fullName);
+    formData.append("email", data.email);
+    formData.append("phone", data.phone);
+    formData.append("position", data.positionInterested);
+    formData.append("message", data.message);
+
+    if (data.resume && data.resume.length > 0) {
+      formData.append("resume", data.resume[0]);
+    }
+
+    const response = await fetch(`${API_BASE_URL}/api/careers`, {
+      method: "POST",
+      body: formData,
     });
-    setLoading(false);
+
+    const result = await response.json();
+
+    if (!response.ok) {
+      throw new Error(result.message || "Failed to submit application.");
+    }
+
     setSubmitted(true);
-  };
+    reset();
+    setResumeName(null);
+
+  } catch (err) {
+    setSubmitError(
+      err instanceof Error
+        ? err.message
+        : "Failed to submit application."
+    );
+  } finally {
+    setLoading(false);
+  }
+};
 
   if (submitted) {
     return (
@@ -59,13 +96,21 @@ export const CareerContactForm: React.FC = () => {
   }
 
   return (
-    <div className="bg-white rounded-2xl border border-[#E2E8F0] p-6 sm:p-10 shadow-sm">
-      <h3 className="text-2xl font-heading font-bold text-[#1E293B] mb-1">
-        Speculative Application
-      </h3>
-      <p className="text-[#475569] font-body text-sm mb-6">
-        Not interested in the current openings? Share your resume and profile so we can reach out when the right role appears.
-      </p>
+  <div className="bg-white rounded-2xl border border-[#E2E8F0] p-6 sm:p-10 shadow-sm">
+    <h3 className="text-2xl font-heading font-bold text-[#1E293B] mb-1">
+      Speculative Application
+    </h3>
+
+    <p className="text-[#475569] font-body text-sm mb-6">
+      Not interested in the current openings? Share your resume and profile so we can reach out when the right role appears.
+    </p>
+
+    {submitError && (
+      <div className="flex items-start gap-2 bg-red-50 border border-red-200 text-red-700 text-sm rounded-lg p-3 mb-6">
+        <AlertCircle className="w-4 h-4 mt-0.5 shrink-0" />
+        <span>{submitError}</span>
+      </div>
+    )}
 
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">

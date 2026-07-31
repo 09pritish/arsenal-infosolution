@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { SectionTitle } from '../components/common/SectionTitle';
+import { PageHero } from '../components/common/PageHero';
 import { Button } from '../components/common/Button';
 import { SolutionCard } from '../components/cards/SolutionCard';
+import { motion } from "framer-motion";
 import { SOLUTIONS } from '../data/solutions/solutionData';
 import {
   Server,
@@ -49,41 +51,39 @@ export const SolutionsPage: React.FC<SolutionsPageProps> = ({ onOpenQuoteModal }
   return (
     <div className="space-y-20 pb-20">
       {/* PAGE HERO */}
-      <section className="bg-gradient-to-b from-[#EAF4FF]/60 via-[#F8FAFC] to-[#F8FAFC] py-16 sm:py-20 border-b border-[#E2E8F0]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
-          <span className="text-xs font-semibold uppercase tracking-widest text-[#0A66C2] bg-[#EAF4FF] px-3 py-1 rounded-full border border-blue-200">
-            Enterprise Practice Areas
-          </span>
-          <h1 className="text-3xl sm:text-5xl font-heading font-extrabold text-[#1E293B] tracking-tight">
-            Tailored Enterprise Technology Solutions for{' '}
-            <span className="text-[#0A66C2]">Next-Gen Scale.</span>
-          </h1>
-          <p className="text-base sm:text-lg font-body text-[#475569] max-w-3xl mx-auto leading-relaxed">
-            From high-density hyperconverged servers to 24/7 managed SOC threat hunting, explore our comprehensive system integration services.
-          </p>
+      <PageHero
+  badge="Enterprise Practice Areas"
+  title="Enterprise Technology"
+  highlight="Solutions"
+  description="From high-density hyperconverged infrastructure and enterprise networking to cybersecurity, managed services, and digital workplace transformation, discover technology solutions engineered for modern enterprises."
+/>
 
-          {/* Filter Categories Bar */}
-          <div className="flex flex-wrap items-center justify-center gap-2 pt-6">
-            {categories.map((cat) => (
-              <button
-                key={cat.id}
-                onClick={() => setActiveCategory(cat.id)}
-                className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold font-body transition-all cursor-pointer ${
-                  activeCategory === cat.id
-                    ? 'bg-[#0A66C2] text-white shadow-md'
-                    : 'bg-white text-[#1E293B] border border-[#E2E8F0] hover:border-[#0A66C2] hover:text-[#0A66C2]'
-                }`}
-              >
-                {cat.label}
-              </button>
-            ))}
-          </div>
-        </div>
-      </section>
+{/* Filter Categories */}
+<section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8">
+  <div className="enterprise-card p-6">
+
+    <div className="flex flex-wrap justify-center gap-3">
+      {categories.map((cat) => (
+        <button
+          key={cat.id}
+          onClick={() => setActiveCategory(cat.id)}
+          className={`px-5 py-2 rounded-xl text-sm font-semibold transition-all duration-300 ${
+            activeCategory === cat.id
+              ? 'bg-[#0A66C2] text-white shadow-md'
+              : 'bg-[#F8FAFC] border border-[#E2E8F0] text-[#475569] hover:border-[#0A66C2] hover:text-[#0A66C2]'
+          }`}
+        >
+          {cat.label}
+        </button>
+      ))}
+    </div>
+
+  </div>
+</section>
 
       {/* SOLUTIONS GRID */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
           {filteredSolutions.map((solution) => (
             <SolutionCard
               key={solution.id}
@@ -104,25 +104,32 @@ export const SolutionsPage: React.FC<SolutionsPageProps> = ({ onOpenQuoteModal }
         />
 
         {SOLUTIONS.map((solution, idx) => (
-          <div
+          <motion.div
+    initial={{ opacity: 0, y: 30 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
+    transition={{
+  duration: 0.7,
+  delay: idx * 0.08,
+}}
             id={solution.id}
             key={solution.id}
-            className={`bg-white rounded-3xl border border-[#E2E8F0] p-8 sm:p-12 shadow-sm grid grid-cols-1 lg:grid-cols-12 gap-8 items-center scroll-mt-32 ${
-              idx % 2 === 1 ? 'lg:flex-row-reverse' : ''
-            }`}
+            className={`enterprise-card p-8 sm:p-12 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center scroll-mt-32 ${
+  idx % 2 === 1 ? "lg:flex-row-reverse" : ""
+}`}
           >
             <div className="lg:col-span-7 space-y-6">
-              <span className="text-xs font-semibold text-[#0A66C2] bg-blue-50 uppercase tracking-widest px-3 py-1 rounded-full">
-                Practice Area 0{idx + 1}
-              </span>
+              <span className="inline-block text-xs font-semibold text-[#0A66C2] bg-blue-50 uppercase tracking-widest px-3 py-1 rounded-full mb-5">
+  Practice Area {String(idx + 1).padStart(2, "0")}
+</span>
 
-              <h2 className="text-2xl sm:text-3xl font-heading font-extrabold text-[#1E293B]">
-                {solution.title}
-              </h2>
+<h2 className="text-3xl sm:text-4xl font-heading font-extrabold text-[#1E293B] mb-6 leading-tight">
+  {solution.title}
+</h2>
 
-              <p className="text-[#475569] font-body text-base leading-relaxed">
-                {solution.fullDescription}
-              </p>
+<p className="text-[#475569] font-body text-base leading-8 mb-8">
+  {solution.fullDescription}
+</p>
 
               {/* Key Features */}
               <div className="space-y-2">
@@ -140,31 +147,23 @@ export const SolutionsPage: React.FC<SolutionsPageProps> = ({ onOpenQuoteModal }
               </div>
 
               {/* Business Benefits */}
-              <div className="bg-[#F8FAFC] border border-[#E2E8F0] p-4 rounded-xl space-y-2">
+              <div className="rounded-2xl bg-gradient-to-r from-[#F8FAFC] to-[#EEF6FF] border border-[#E2E8F0] p-5">
                 <h4 className="text-xs font-bold text-[#0A66C2] uppercase tracking-wider">
                   Enterprise Value Delivered
                 </h4>
-                <ul className="space-y-1 text-xs text-[#475569] font-body">
+                <ul className="mt-3 space-y-2 text-sm text-[#475569]">
                   {solution.businessBenefits.map((b, i) => (
                     <li key={i}>• {b}</li>
                   ))}
                 </ul>
               </div>
 
-              <div className="pt-2 flex flex-wrap items-center gap-3">
-                <Button
-                  variant="primary"
-                  onClick={() => onOpenQuoteModal && onOpenQuoteModal(solution.id)}
-                  icon={<ArrowRight className="w-4 h-4" />}
-                >
-                  Request Architecture Quote
-                </Button>
-              </div>
+              
             </div>
 
             {/* Visual Side Banner */}
             <div className="lg:col-span-5">
-              <div className="relative rounded-2xl overflow-hidden border border-[#E2E8F0] shadow-md">
+              <div className="relative overflow-hidden rounded-2xl border border-[#E2E8F0]">
                 <img
                   src={solution.heroImage}
                   alt={solution.title}
@@ -187,7 +186,7 @@ export const SolutionsPage: React.FC<SolutionsPageProps> = ({ onOpenQuoteModal }
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         ))}
       </section>
     </div>

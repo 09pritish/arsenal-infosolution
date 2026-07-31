@@ -1,5 +1,5 @@
 import React from 'react';
-import { SectionTitle } from '../components/common/SectionTitle';
+import { PageHero } from '../components/common/PageHero';
 import { ContactForm } from '../components/forms/ContactForm';
 import { COMPANY_INFO } from '../data/companyData';
 import {
@@ -7,164 +7,215 @@ import {
   Phone,
   Mail,
   Clock,
-  Building2,
-  Headset,
   ShieldCheck,
-  CheckCircle2
 } from 'lucide-react';
 
 export const ContactPage: React.FC = () => {
   return (
     <div className="space-y-28 pb-28">
-      {/* HERO SECTION */}
-      <section className="bg-gradient-to-b from-[#EAF4FF]/60 via-[#F8FAFC] to-[#F8FAFC] py-16 sm:py-20 border-b border-[#E2E8F0]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-  <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[#0A66C2] bg-[#EAF4FF] px-3 py-1 rounded-full border border-blue-200 mb-5">
-    Contact Us
-  </span>
-  <h1 className="text-3xl sm:text-5xl font-heading font-extrabold text-[#1E293B] tracking-tight mb-3">
-    <span className="text-[#0A66C2]">Contact Us</span>
-  </h1>
-  <p className="text-base sm:text-lg font-body text-[#475569] max-w-3xl mx-auto leading-relaxed">
-    We Love to Hear From You!
-  </p>
-</div>
-      </section>
 
-      {/* MAIN CONTACT CONTENT */}
+      {/* HERO */}
+      <PageHero
+        badge="Contact Arsenal Infosolutions"
+        title="Contact"
+        highlight="Us"
+        description="We'd love to hear from you. Whether you're planning a new IT infrastructure, looking for enterprise technology solutions, or need expert guidance, our team is ready to assist you."
+      />
+
+      {/* MAIN CONTENT */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-          {/* Left: Contact Information Cards */}
+
+          {/* LEFT COLUMN */}
           <div className="lg:col-span-5 space-y-6">
-            <div className="bg-white rounded-2xl border border-[#E2E8F0] p-6 sm:p-8 space-y-6 shadow-sm">
+
+            {/* CONTACT CARD */}
+            <div className="enterprise-card p-6 sm:p-8 space-y-6">
+
               <h3 className="text-2xl font-heading font-bold text-[#1E293B] pb-3 border-b border-[#F1F5F9]">
-                Contact Us
+                Contact Information
               </h3>
 
-              <div className="space-y-5 text-sm font-body">
+              <div className="space-y-5">
+
                 <div className="flex items-start gap-3.5">
-                  <div className="p-2.5 rounded-xl bg-[#EAF4FF] text-[#0A66C2] shrink-0 mt-0.5">
+                  <div className="p-2.5 rounded-xl bg-[#EAF4FF] text-[#0A66C2]">
                     <MapPin className="w-5 h-5" />
                   </div>
+
                   <div>
                     <h4 className="font-bold text-[#1E293B]">Office</h4>
-                    <p className="text-[#475569] leading-relaxed mt-0.5">
+                    <p className="text-[#475569] leading-relaxed mt-1">
                       {COMPANY_INFO.address}
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-3.5">
-                  <div className="p-2.5 rounded-xl bg-[#EAF4FF] text-[#0A66C2] shrink-0 mt-0.5">
+                  <div className="p-2.5 rounded-xl bg-[#EAF4FF] text-[#0A66C2]">
                     <Phone className="w-5 h-5" />
                   </div>
+
                   <div>
-                    <h4 className="font-bold text-[#1E293B]">Call Us</h4>
-                    <p className="text-[#475569] mt-0.5">
-                      Direct: <a href={`tel:${COMPANY_INFO.phone}`} className="text-[#0A66C2] font-semibold hover:underline">{COMPANY_INFO.phone}</a>
+                    <h4 className="font-bold text-[#1E293B]">
+                      Call Us
+                    </h4>
+
+                    <p className="mt-1">
+                      <a
+                        href={`tel:${COMPANY_INFO.phone}`}
+                        className="text-[#0A66C2] font-semibold hover:underline"
+                      >
+                        {COMPANY_INFO.phone}
+                      </a>
                     </p>
-                    <p className="text-[#475569] text-xs">
-                      Toll-Free: <strong>{COMPANY_INFO.tollFree}</strong>
+
+                    <p className="text-sm text-[#64748B]">
+                      Toll Free : {COMPANY_INFO.tollFree}
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-3.5">
-                  <div className="p-2.5 rounded-xl bg-[#EAF4FF] text-[#0A66C2] shrink-0 mt-0.5">
+                  <div className="p-2.5 rounded-xl bg-[#EAF4FF] text-[#0A66C2]">
                     <Mail className="w-5 h-5" />
                   </div>
+
                   <div>
-                    <h4 className="font-bold text-[#1E293B]">Email</h4>
-                    <p className="text-[#475569] mt-0.5">
-                      Sales & RFPs: <a href={`mailto:${COMPANY_INFO.salesEmail}`} className="text-[#0A66C2] font-semibold hover:underline">{COMPANY_INFO.salesEmail}</a>
+                    <h4 className="font-bold text-[#1E293B]">
+                      Email
+                    </h4>
+
+                    <p className="mt-1">
+                      <a
+                        href={`mailto:${COMPANY_INFO.salesEmail}`}
+                        className="text-[#0A66C2] font-semibold hover:underline"
+                      >
+                        {COMPANY_INFO.salesEmail}
+                      </a>
                     </p>
-                    <p className="text-[#475569] text-xs">
-                      General: {COMPANY_INFO.email}
+
+                    <p className="text-sm text-[#64748B]">
+                      {COMPANY_INFO.email}
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-3.5">
-                  <div className="p-2.5 rounded-xl bg-[#EAF4FF] text-[#0A66C2] shrink-0 mt-0.5">
+                  <div className="p-2.5 rounded-xl bg-[#EAF4FF] text-[#0A66C2]">
                     <Clock className="w-5 h-5" />
                   </div>
+
                   <div>
-                    <h4 className="font-bold text-[#1E293B]">Customer Support</h4>
-                    <p className="text-[#475569] text-xs mt-0.5">
+                    <h4 className="font-bold text-[#1E293B]">
+                      Customer Support
+                    </h4>
+
+                    <p className="mt-1 text-[#475569]">
                       {COMPANY_INFO.tollFree}
                     </p>
                   </div>
                 </div>
+
               </div>
             </div>
 
-            {/* 24/7 SOC Emergency Alert Box */}
-            <div className="bg-[#0F3D91] text-white rounded-2xl p-6 shadow-md space-y-3">
-              <div className="flex items-center gap-2">
-                <ShieldCheck className="w-6 h-6 text-emerald-400" />
-                <h4 className="font-heading font-bold text-lg">
-                  Existing Client Incident Escalation?
-                </h4>
+            {/* INCIDENT CARD */}
+            <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#0A66C2] to-[#0F3D91] p-6 shadow-xl">
+
+              <div className="absolute -right-16 -top-16 h-40 w-40 rounded-full bg-white/10 blur-3xl" />
+
+              <div className="absolute -left-10 -bottom-10 h-32 w-32 rounded-full bg-cyan-300/10 blur-3xl" />
+
+              <div className="relative z-10">
+
+                <div className="flex items-center gap-3">
+
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/10 backdrop-blur-sm">
+                    <ShieldCheck className="w-6 h-6 text-emerald-300" />
+                  </div>
+
+                  <h4 className="text-lg font-heading font-bold text-white">
+                    Existing Client Incident Escalation
+                  </h4>
+
+                </div>
+
+                <p className="mt-4 text-sm text-blue-100 leading-relaxed">
+                  Existing customers can contact our priority support team at
+                  <span className="font-bold text-white">
+                    {" "}
+                    {COMPANY_INFO.tollFree}
+                  </span>
+                  .
+                </p>
+
               </div>
-              <p className="text-xs text-blue-100 font-body leading-relaxed">
-                Call us at <strong>{COMPANY_INFO.tollFree}</strong>.
-              </p>
+
             </div>
+
           </div>
 
-          {/* Right: Interactive Contact Form */}
+          {/* RIGHT COLUMN */}
+
           <div className="lg:col-span-7">
+
             <ContactForm />
+
           </div>
+
         </div>
+
       </section>
 
-      {/* GOOGLE MAPS / LOCATION PLACEHOLDER */}
+      {/* MAP */}
+
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-white rounded-3xl border border-[#E2E8F0] overflow-hidden shadow-sm">
-          <div className="p-6 bg-[#F8FAFC] border-b border-[#E2E8F0] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+
+        <div className="enterprise-card overflow-hidden rounded-3xl">
+
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 border-b border-[#E2E8F0] px-8 py-6">
+
             <div>
-              <h3 className="font-heading font-bold text-lg text-[#1E293B]">
-                Office Location
-              </h3>
-              <p className="text-xs text-[#475569]">
+
+              <h2 className="text-2xl font-heading font-bold text-[#1E293B]">
+                Visit Our Office
+              </h2>
+
+              <p className="mt-2 text-[#64748B]">
                 {COMPANY_INFO.address}
               </p>
+
             </div>
+
             <a
-              href={`https://maps.google.com/?q=${encodeURIComponent(COMPANY_INFO.address)}`}
+              href={`https://maps.google.com/?q=${encodeURIComponent(
+                COMPANY_INFO.address
+              )}`}
               target="_blank"
-              rel="noreferrer"
-              className="text-xs font-semibold text-[#0A66C2] hover:underline"
+              rel="noopener noreferrer"
+              className="inline-flex items-center rounded-lg bg-[#0A66C2] px-5 py-3 font-medium text-white hover:bg-[#0859A8] transition"
             >
-              Open in Google Maps →
+              Open in Google Maps
             </a>
+
           </div>
 
-          {/* Map Preview Graphic */}
-          <div className="relative h-80 bg-slate-100 flex items-center justify-center overflow-hidden">
-            <img
-              src="/images/address.png"
-              alt="Office address"
-              className="w-full h-full object-cover opacity-60"
-            />
-            <div className="absolute bg-white/90 backdrop-blur-md p-4 sm:p-6 rounded-2xl shadow-xl border border-[#E2E8F0] text-center max-w-sm">
-              <div className="w-10 h-10 rounded-full bg-[#0A66C2] text-white flex items-center justify-center mx-auto mb-2">
-                <Building2 className="w-5 h-5" />
-              </div>
-              <h4 className="font-heading font-bold text-base text-[#1E293B]">
-                Arsenal Infosolutions
-              </h4>
-              <p className="text-xs text-[#475569] mt-1 font-body">
-                {COMPANY_INFO.address}
-              </p>
-              <span className="inline-block mt-3 text-[10px] font-semibold bg-emerald-100 text-emerald-800 px-2.5 py-0.5 rounded-full">
-                Contact Us
-              </span>
-            </div>
-          </div>
+          <iframe
+            title="Arsenal Infosolutions Location"
+            src={`https://maps.google.com/maps?q=${encodeURIComponent(
+              COMPANY_INFO.address
+            )}&t=&z=16&ie=UTF8&iwloc=&output=embed`}
+            className="w-full h-[500px] border-0"
+            loading="lazy"
+            allowFullScreen
+          />
+
         </div>
+
       </section>
+
     </div>
   );
 };

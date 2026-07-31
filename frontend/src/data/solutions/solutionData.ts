@@ -5,8 +5,8 @@ export const SOLUTIONS: Solution[] = [
     "id": "aws-cloud",
     "slug": "aws-cloud",
     "title": "Amazon Web Services (AWS)",
-    "shortDescription": "Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. AWS services are categorized into computing, storage, databases, analytics, machine learning, networking, security, and more, which are delivered through a global network of data centers. Key aspects of AWS include:",
-    "fullDescription": "Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. AWS services are categorized into computing, storage, databases, analytics, machine learning, networking, security, and more, which are delivered through a global network of data centers. Key aspects of AWS include:",
+    "shortDescription": "Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. AWS services are categorized into computing, storage, databases, analytics, machine learning, networking, security, and more, which are delivered through a global network of data centers. ",
+    "fullDescription": "Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. AWS services are categorized into computing, storage, databases, analytics, machine learning, networking, security, and more, which are delivered through a global network of data centers. ",
     "iconName": "Server",
     "category": "cloud",
     "keyFeatures": [
@@ -23,7 +23,7 @@ export const SOLUTIONS: Solution[] = [
     ],
     "businessBenefits": [],
     "techPartners": [],
-    "heroImage": "/assets/images/stock/core/Rraushan-kumarR.png"
+    "heroImage": "/images/AWS_202607311736.jpeg"
   },
   {
     "id": "application-monitoring",
@@ -42,7 +42,7 @@ export const SOLUTIONS: Solution[] = [
       "Cisco",
       "Dynatrace"
     ],
-    "heroImage": "/assets/images/stock/core/apm.png"
+    "heroImage": "/images/Application performance manag.jpeg"
   },
   {
     "id": "cloud",
@@ -68,7 +68,7 @@ export const SOLUTIONS: Solution[] = [
       "Vmware",
       "Citrix"
     ],
-    "heroImage": "/assets/images/stock/core/cloud.png"
+    "heroImage": "/images/cloud.png"
   },
   {
     "id": "collaboration",
@@ -94,7 +94,7 @@ export const SOLUTIONS: Solution[] = [
       "Peoplelink",
       "Crestron"
     ],
-    "heroImage": "/assets/images/stock/core/collaboration.png"
+    "heroImage": "/images/collaboration_202607311538.jpeg"
   },
   {
     "id": "cyber-security",
@@ -129,7 +129,7 @@ export const SOLUTIONS: Solution[] = [
       "Hcl",
       "Radware"
     ],
-    "heroImage": "/assets/images/stock/core/cs.png"
+    "heroImage": "/images/Cybersecurity_experts_monitoring…_202607311726.jpeg"
   },
   {
     "id": "data-centre",
@@ -155,7 +155,7 @@ export const SOLUTIONS: Solution[] = [
       "Fortinet",
       "Avaya"
     ],
-    "heroImage": "/assets/images/stock/core/sc.png"
+    "heroImage": "/images/data_center_202607311602.jpeg"
   },
   {
     "id": "infrastructure",
@@ -183,7 +183,7 @@ export const SOLUTIONS: Solution[] = [
       "Fortinet",
       "Avaya"
     ],
-    "heroImage": "/assets/images/stock/core/im.png"
+    "heroImage": "/images/infrastructure_manage…_202607311613.jpeg"
   },
   {
     "id": "managed-services",
@@ -202,7 +202,7 @@ export const SOLUTIONS: Solution[] = [
       "Everest Group",
       "Service Now"
     ],
-    "heroImage": "/assets/images/stock/core/ms.png"
+    "heroImage": "/images/Managed_Services_202607311644.jpeg"
   },
   {
     "id": "network",
@@ -234,7 +234,7 @@ export const SOLUTIONS: Solution[] = [
       "Avaya",
       "Infoblox"
     ],
-    "heroImage": "/assets/images/stock/core/network.png"
+    "heroImage": "/images/networkinhero.png"
   },
   {
     "id": "passive-network",
@@ -261,7 +261,7 @@ export const SOLUTIONS: Solution[] = [
       "Rittal",
       "Apw"
     ],
-    "heroImage": "/assets/images/stock/core/pn.png"
+    "heroImage": "/images/Passive_networking_202607311523.jpeg"
   },
   {
     "id": "physical-safety",
@@ -285,7 +285,7 @@ export const SOLUTIONS: Solution[] = [
       "Cisco",
       "Tyco"
     ],
-    "heroImage": "/assets/images/stock/core/pss.png"
+    "heroImage": "/images/Physical_safety_202607311525.jpeg"
   },
   {
     "id": "software-licensing",
@@ -319,7 +319,7 @@ export const SOLUTIONS: Solution[] = [
       "Radware",
       "Crowdstrike"
     ],
-    "heroImage": "/assets/images/stock/core/sla.png"
+    "heroImage": "/images/Industsry_leading_202607311634.jpeg"
   },
   {
     "id": "storage-compute",
@@ -348,7 +348,7 @@ export const SOLUTIONS: Solution[] = [
       "Nutanix",
       "Vmware"
     ],
-    "heroImage": "/assets/images/stock/core/sc.png"
+    "heroImage": "/images/Storage_commute_202607311653.jpeg"
   },
   {
     "id": "virtualisation",
@@ -371,7 +371,7 @@ export const SOLUTIONS: Solution[] = [
       "Emc",
       "Netapp"
     ],
-    "heroImage": "/assets/images/stock/core/var.png"
+    "heroImage": "/images/Virtualization_202607311649.jpeg"
   }
 ];
 
@@ -386,67 +386,67 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "AWS Cloud Computing"
     ],
     "intro": "Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. AWS services are categorized into computing, storage, databases, analytics, machine learning, networking, security, and more, which are delivered through a global network of data centers. Key aspects of AWS include:",
-    "heroImage": "/assets/images/stock/core/Rraushan-kumarR.png",
+    "heroImage": "/images/AWS_202607311736.jpeg",
     "heroAlt": "",
     "services": [
       {
         "title": "Compute",
         "description": "Services like Amazon EC2 (Elastic Compute Cloud) provide resizable compute capacity in the cloud, allowing users to quickly scale capacity up and down as computing requirements change. This enables businesses to run applications with varying workloads efficiently, handle sudden spikes in traffic or demand without downtime, and only pay for the computing resources they use, reducing costs and optimizing resource utilization.",
-        "image": "/assets/images/stock/core/compute.png",
+        "image": "/images/Compute_202607311738.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Storage",
         "description": "AWS offers various storage solutions for different needs. Amazon S3 is a reliable and expandable service for storing large amounts of data, such as those used in data lakes, big data analysis, and machine learning. Amazon EBS offers storage units that can be connected to EC2 computers for ongoing storage needs. For long-term storage, Amazon Glacier is a budget-friendly choice that ensures your data is securely and durably stored for archiving and backup purposes. Additionally, AWS storage solutions provide features like data encryption, access controls, and versioning, ensuring that your data is protected and easily manageable.",
-        "image": "/assets/images/stock/core/storage.png",
+        "image": "/images/Storage_202607311740.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Databases",
         "description": "From relational to NoSQL, AWS offers managed databases like Amazon RDS, Amazon DynamoDB, and Amazon Aurora. RDS provides a fully managed relational database service that supports popular engines like MySQL, PostgreSQL, Oracle, and SQL Server, allowing for easy migration and management of existing databases. DynamoDB is a fast, highly scalable NoSQL database that is ideal for applications that require low latency and high throughput, such as real-time analytics, gaming, and advertising. Aurora is a high-performance, fully managed relational database engine that is compatible with MySQL and PostgreSQL, offering enhanced performance, availability, and durability. These managed databases enable developers to focus on application development, without worrying about database administration tasks like provisioning, patching, and backups.",
-        "image": "/assets/images/stock/core/database.png",
+        "image": "/images/Database_202607311746.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Networking",
         "description": "Create isolated networks with Amazon VPC and connect to the internet or on-premises data centres using AWS Direct Connect. VPC allows you to create a virtual private cloud within AWS, providing you with a secure environment to run your applications, including the ability to configure custom IP address ranges, subnets, and network ACLs. Direct Connect provides a dedicated network connection between your on-premises data centre and AWS, offering higher bandwidth and lower latency than internet connections, making it ideal for applications that require high-speed data transfer, such as data replication, backup, and disaster recovery. Additionally, AWS networking services provide advanced security features, including encryption, firewalls, and access controls, to ensure secure communication between resources and applications.",
-        "image": "/assets/images/stock/core/networking.png",
+        "image": "/images/networking_202607311746.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Machine Learning and AI",
         "description": "Build, train, and deploy ML models with Amazon Sage Maker. Leverage services like Amazon Recognition for image and video analysis and Amazon Comprehend for natural language processing. Sage Maker provides a fully managed platform for machine learning, making it easy for developers of all skill levels to build, train, and deploy machine learning models. Recognition allows you to analyse images and videos for objects, scenes, and faces. Comprehend allows you to extract insights from text data. With these services, you can automate tasks, make predictions, and uncover new insights, enabling you to build intelligent applications and enhance customer experiences. Additionally, AWS machine learning services provide pre-trained models and algorithms, reducing the need for extensive machine learning expertise.",
-        "image": "/assets/images/stock/core/machine.png",
+        "image": "/images/ML_202607311748.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Security and Identity",
         "description": "Protect your data with AWS Identity and Access Management (IAM), AWS Shield for DDoS protection, and AWS WAF for web application security. IAM allows you to control who has access to your AWS resources, enabling fine-grained access control, identity federation, and multi-factor authentication to ensure that only authorized users and applications can access your data. Shield protects your applications from Distributed Denial of Service (DDoS) attacks, which can help prevent service disruptions and data breaches. WAF helps you protect your web applications from common web exploits, such as SQL injection and cross-site scripting (XSS), by filtering and monitoring incoming traffic. Additionally, AWS provides a range of other security services, including encryption, key management, and compliance tools, to help you meet your security and regulatory requirements.",
-        "image": "/assets/images/stock/core/security.png",
+        "image": "/images/security_identity_202607311752.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Analytics",
         "description": "Process and analyse vast amounts of data using Amazon Redshift for data warehousing, Amazon EMR for Hadoop and Spark, and Amazon Athena for SQL-based queries. Redshift is a fully managed, petabyte-scale data warehouse that makes it easy to analyse large datasets. EMR provides a managed Hadoop and Spark service that allows you to process and analyse large amounts of data. Athena is a serverless query service that makes it easy to analyse data stored in S3 using standard SQL. With these services, you can gain insights from your data, identify trends, and make data-driven decisions. Additionally, AWS analytics services integrate with machine learning and visualization tools, enabling you to build robust data pipelines and dashboards.",
-        "image": "/assets/images/stock/core/chart.png",
+        "image": "/images/analytics_202607311755.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Serverless Computing",
         "description": "Run code without managing servers using AWS Lambda and create and manage APIs with Amazon API Gateway. Lambda allows you to run code without having to provision or manage servers. API Gateway allows you to create and manage APIs for your applications. With Lambda, you can build scalable and event-driven applications, and only pay for the compute time consumed. API Gateway provides RESTful APIs and WebSocket APIs, enabling real-time two-way communication between applications.",
-        "image": "/assets/images/stock/core/cloud2.png",
+        "image": "/images/serverless_computing_202607311757.jpeg",
         "imageAlt": ""
       },
       {
         "title": "IoT",
         "description": "Connect, manage, and process data from IoT devices using AWS IoT Core, AWS IoT Greengrass, and AWS IoT Device Management. IoT Core provides a managed cloud platform for connecting IoT devices to the cloud. Greengrass allows you to run AWS services and custom code on your IoT devices. Device Management provides a service for managing your IoT devices. With these services, you can securely collect, process, and analyse IoT data, and integrate it with other AWS services. Additionally, AWS IoT services provide real-time analytics and machine learning capabilities to help you build intelligent IoT applications.",
-        "image": "/assets/images/stock/core/iot.png",
+        "image": "/images/Enterprise_IoT_technology_ecosystem_202607311756.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Developer Tools",
         "description": "AWS provides a suite of tools to streamline development, deployment, and management. Use AWS CloudFormation for infrastructure as code, AWS code Pipeline for continuous integration and delivery, and AWS Code Deploy for automated deployments. CloudFormation allows you to define and manage your AWS resources using a simple declarative language. Code pipeline allows you to automate the process of building, testing, and deploying your applications. Code Deploy allows you to automate the deployment of your applications to EC2 instances. Additionally, AWS developer tools provide integration with popular development tools and services, enabling a seamless development experience. With these tools, you can focus on writing code, not managing infrastructure.",
-        "image": "/assets/images/stock/core/tool.png",
+        "image": "/images/Developers_tools_202607311758.jpeg",
         "imageAlt": ""
       }
     ],
@@ -465,7 +465,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/stock/core/Rraushan-kumarR.png",
+            "src": "/images/AWS_202607311736.jpeg",
             "alt": ""
           }
         ]
@@ -502,43 +502,43 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/stock/core/compute.png",
+            "src": "/images/compute.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/stock/core/storage.png",
+            "src": "/images/storage.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/stock/core/database.png",
+            "src": "/images/database.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/stock/core/networking.png",
+            "src": "/images/networking.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/stock/core/machine.png",
+            "src": "/images/machine.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/stock/core/security.png",
+            "src": "/images/security.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/stock/core/chart.png",
+            "src": "/images/chart.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/stock/core/cloud2.png",
+            "src": "/images/cloud2.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/stock/core/iot.png",
+            "src": "/images/iot.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/stock/core/tool.png",
+            "src": "/images/tool.png",
             "alt": ""
           }
         ]
@@ -555,16 +555,16 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Application Performance Management"
     ],
     "intro": "Wde Offer Application Performance Management to measure application performance, availability and user experience and using this data to identify and resolve application issues before they impact customers.",
-    "heroImage": "/assets/images/stock/core/apm.png",
+    "heroImage": "/images/Application performance manag.jpeg",
     "heroAlt": "",
     "services": [],
     "partners": [
       {
-        "src": "/assets/images/our-partners/cisco.png",
+        "src": "/partners/cisco.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/dynatrace.png",
+        "src": "/partners/dynatrace.png",
         "alt": ""
       }
     ],
@@ -605,7 +605,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         ],
         "images": [
           {
-            "src": "/assets/images/stock/core/apm.png",
+            "src": "/images/apm.png",
             "alt": ""
           }
         ]
@@ -621,11 +621,11 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/our-partners/cisco.png",
+            "src": "/partners/cisco.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/dynatrace.png",
+            "src": "/partners/dynatrace.png",
             "alt": ""
           }
         ]
@@ -642,65 +642,65 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Cloud"
     ],
     "intro": "Cloud based solutions including designing and provisioning across a range of cloud service providers",
-    "heroImage": "/assets/images/stock/core/cloud.png",
+    "heroImage": "/images/cloud.png",
     "heroAlt": "",
     "services": [
       {
         "title": "Cloud Productivity Solution",
         "description": "Our team of globally recognized certified consultants have an expertise in architecture design and implementation services, and build a roadmap for the smooth migration of your crucial files and data from your on-premise setup to the state-of-the-art cloud productivity platform",
-        "image": "/assets/images/services-pages/cloud/migrating.svg",
+        "image": "/images/migrating.svg",
         "imageAlt": ""
       },
       {
         "title": "Consulting & Professional Services",
         "description": "Our holistic and innovative strategies cater to your business needs helping you attain maximum gain from existing and emerging business opportunities. As efficient consultants, our focus is to help you enhance your business output and build a roadmap for the exponential growth of your enterprise",
-        "image": "/assets/images/services-pages/cloud/consulting.svg",
+        "image": "/images/consulting.svg",
         "imageAlt": ""
       },
       {
         "title": "Hybrid Cloud Consultancy and Solutions",
         "description": "We help enterprises create an optimized environment wherein they can store their critical data in the private cloud and the lesser critical data in the public cloud.",
-        "image": "/assets/images/services-pages/cloud/cloud.svg",
+        "image": "/images/cloud.svg",
         "imageAlt": ""
       },
       {
         "title": "Private Cloud Consultancy and Solutions",
         "description": "Our team of globally recognized certified consultants have an expertise in architecture designing and implementation services using OEM products like AWS, Microsoft, VMware, and Citrix",
-        "image": "/assets/images/services-pages/cloud/private.svg",
+        "image": "/images/private.svg",
         "imageAlt": ""
       },
       {
         "title": "Public Cloud Consultancy and Solutions",
         "description": "We provides the state-of-the-art public cloud services which help enterprises take advantage of the centralization and virtualization that cloud computing offers. Our services accelerate the growth of your business with minimum security threat.",
-        "image": "/assets/images/services-pages/cloud/cloud-storage.svg",
+        "image": "/images/cloud-storage.svg",
         "imageAlt": ""
       },
       {
         "title": "Remote Management Services",
         "description": "Our services include ceaseless surveillance of servers for accessibility and utilization, incident & problem management, OS health management and upgrades, user management services",
-        "image": "/assets/images/services-pages/cloud/connection.svg",
+        "image": "/images/connection.svg",
         "imageAlt": ""
       }
     ],
     "partners": [
       {
-        "src": "/assets/images/our-partners/aws.png",
+        "src": "/partners/aws.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/googlecloud.png",
+        "src": "/partners/googlecloud.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/microsoft.png",
+        "src": "/partners/microsoft.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/vmware.png",
+        "src": "/partners/vmware.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/citrix.png",
+        "src": "/partners/citrix.png",
         "alt": ""
       }
     ],
@@ -718,7 +718,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/stock/core/cloud.png",
+            "src": "/images/cloud.png",
             "alt": ""
           }
         ]
@@ -746,27 +746,27 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/services-pages/cloud/migrating.svg",
+            "src": "/images/migrating.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/cloud/consulting.svg",
+            "src": "/images/consulting.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/cloud/cloud.svg",
+            "src": "/images/cloud.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/cloud/private.svg",
+            "src": "/images/private.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/cloud/cloud-storage.svg",
+            "src": "/images/cloud-storage.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/cloud/connection.svg",
+            "src": "/images/connection.svg",
             "alt": ""
           }
         ]
@@ -782,23 +782,23 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/our-partners/aws.png",
+            "src": "/partners/aws.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/googlecloud.png",
+            "src": "/partners/googlecloud.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/microsoft.png",
+            "src": "/partners/microsoft.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/vmware.png",
+            "src": "/partners/vmware.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/citrix.png",
+            "src": "/partners/citrix.png",
             "alt": ""
           }
         ]
@@ -815,65 +815,65 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Collaboration"
     ],
     "intro": "The future of work is remote. Keep your teams happier, more productive, and more connected than ever before with powerful collaboration tools",
-    "heroImage": "/assets/images/stock/core/collaboration.png",
+    "heroImage": "/images/collaboration_202607311538.jpeg",
     "heroAlt": "",
     "services": [
       {
         "title": "Conferencing",
         "description": "Transform not just how you meet, but how you work. We provides the best conferencing tool for the job and the workplace.",
-        "image": "/assets/images/services-pages/mobility/consulting.svg",
+        "image": "/images/Business_meeting_video_conferenc…_202607311724.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Contact Centre",
         "description": "We offers a comprehensive portfolio of products, including contact center, calling, meetings, team collaboration, and devices",
-        "image": "/assets/images/services-pages/mobility/quality-assurance.svg",
+        "image": "/images/collaboration-Contact_center_202607311540.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Collaboration Endpoints",
         "description": "Improve collaboration with intelligent endpoints designed for every use case. Get the latest technology and increase collaboration adoption with a simple, affordable subscription",
-        "image": "/assets/images/services-pages/mobility/test.svg",
+        "image": "/images/collaboration_endpoin…_202607311543.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Unified Communications",
         "description": "Work intuitively. Bring people together anywhere, on any device, with integrated collaboration Get market-leading unified communications delivered on-premises, in the cloud, and any stage in between",
-        "image": "/assets/images/services-pages/mobility/test.svg",
+        "image": "/images/Collaboration-Unified_Communication_202607311549.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Team Collaboration",
         "description": "Transform how you work with Webex. Improve your workstreams and stay connected with a full suite of team collaboration features for calling, messaging, meetings, and integration",
-        "image": "/assets/images/services-pages/mobility/test.svg",
+        "image": "/images/team_collaboration_202607311552.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Cognitive Collaboration Solutions",
         "description": "Collaboration creates the possibility of remote collaboration that's simple, reliable and secure. Video conferencing solution designed to communicate, ideate, iterate from anywhere, anytime.",
-        "image": "/assets/images/services-pages/mobility/test.svg",
+        "image": "/images/collaboration_solutio…_202607311558.jpeg",
         "imageAlt": ""
       }
     ],
     "partners": [
       {
-        "src": "/assets/images/our-partners/cisco.png",
+        "src": "/partners/cisco.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/avaya.png",
+        "src": "/partners/avaya.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/polycom.png",
+        "src": "/partners/polycom.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/peoplelink.png",
+        "src": "/partners/peoplelink.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/crestron.png",
+        "src": "/partners/crestron.png",
         "alt": ""
       }
     ],
@@ -891,7 +891,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/stock/core/collaboration.png",
+            "src": "/images/collaboration.png",
             "alt": ""
           }
         ]
@@ -919,27 +919,27 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/services-pages/mobility/consulting.svg",
+            "src": "/images/consulting.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/mobility/quality-assurance.svg",
+            "src": "/images/quality-assurance.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/mobility/test.svg",
+            "src": "/images/test.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/mobility/test.svg",
+            "src": "/images/test.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/mobility/test.svg",
+            "src": "/images/test.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/mobility/test.svg",
+            "src": "/images/test.svg",
             "alt": ""
           }
         ]
@@ -955,23 +955,23 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/our-partners/cisco.png",
+            "src": "/partners/cisco.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/avaya.png",
+            "src": "/partners/avaya.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/polycom.png",
+            "src": "/partners/polycom.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/peoplelink.png",
+            "src": "/partners/peoplelink.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/crestron.png",
+            "src": "/partners/crestron.png",
             "alt": ""
           }
         ]
@@ -988,99 +988,99 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Cyber Security"
     ],
     "intro": "Cyber security is one of the key challenges that is faced by all of us. We help you to build a robust secure framework for addressing all your security concerns with focus on monitoring , reporting and mitigation",
-    "heroImage": "/assets/images/stock/core/cs.png",
+    "heroImage": "/images/Cybersecurity_experts_monitoring…_202607311726.jpeg",
     "heroAlt": "",
     "services": [
       {
         "title": "Endpoint Security",
         "description": "End point protection solution comprising anti virus , threat detection and response,device management and data leak protection based on your environment and threat landscape",
-        "image": "/assets/images/services-pages/cyber/padlock.svg",
+        "image": "/images/cyber-endpoint.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Cloud Security",
         "description": "Providing multi layer security across public , private and hybrid cloud environment through a range of solutions from world leading OEM's based on your threat landscape",
-        "image": "/assets/images/services-pages/cyber/data-security.svg",
+        "image": "/images/Cloud_sec_202607311729.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Vulnerability Assessment",
         "description": "Using mix of tools and solutions for identifying threats and vulnerabilities in existing set up and addressing the same using best of bread solutions",
-        "image": "/assets/images/services-pages/cyber/compliance.svg",
+        "image": "/images/Vulnerability_assessment_202607311731.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Security Architecture and Implementation",
         "description": "End to security architechture framework with log corelation for a better monitoring , management and effective response",
-        "image": "/assets/images/services-pages/cyber/security.svg",
+        "image": "/images/Security_architects_managing_ent…_202607311732.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Managed Access & Identity Controls",
         "description": "Multi level secure authentication , single sign on and identity based access to resources based on industry standards and best practices",
-        "image": "/assets/images/services-pages/cyber/verified.svg",
+        "image": "/images/cyber-managedaccess.jpeg",
         "imageAlt": ""
       }
     ],
     "partners": [
       {
-        "src": "/assets/images/our-partners/cisco.png",
+        "src": "/partners/cisco.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/zscaler.png",
+        "src": "/partners/zscaler.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/ibm.png",
+        "src": "/partners/ibm.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/microfocus.png",
+        "src": "/partners/microfocus.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/paloalto.png",
+        "src": "/partners/paloalto.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/fortinet.png",
+        "src": "/partners/fortinet.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/array_networks.png",
+        "src": "/partners/array_networks.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/checkpoint.png",
+        "src": "/partners/checkpoint.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/f5.png",
+        "src": "/partners/f5.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/forescout.png",
+        "src": "/partners/forescout.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/dataresolve.png",
+        "src": "/partners/dataresolve.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/trendmicro.png",
+        "src": "/partners/trendmicro.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/mcafee.png",
+        "src": "/partners/mcafee.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/hcl.png",
+        "src": "/partners/hcl.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/radware.png",
+        "src": "/partners/radware.png",
         "alt": ""
       }
     ],
@@ -1098,7 +1098,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/stock/core/cs.png",
+            "src": "/images/cs.png",
             "alt": ""
           }
         ]
@@ -1124,23 +1124,23 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/services-pages/cyber/padlock.svg",
+            "src": "/images/padlock.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/cyber/data-security.svg",
+            "src": "/images/data-security.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/cyber/compliance.svg",
+            "src": "/images/compliance.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/cyber/security.svg",
+            "src": "/images/security.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/cyber/verified.svg",
+            "src": "/images/verified.svg",
             "alt": ""
           }
         ]
@@ -1156,63 +1156,63 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/our-partners/cisco.png",
+            "src": "/partners/cisco.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/zscaler.png",
+            "src": "/partners/zscaler.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/ibm.png",
+            "src": "/partners/ibm.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/microfocus.png",
+            "src": "/partners/microfocus.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/paloalto.png",
+            "src": "/partners/paloalto.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/fortinet.png",
+            "src": "/partners/fortinet.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/array_networks.png",
+            "src": "/partners/array_networks.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/checkpoint.png",
+            "src": "/partners/checkpoint.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/f5.png",
+            "src": "/partners/f5.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/forescout.png",
+            "src": "/partners/forescout.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/dataresolve.png",
+            "src": "/partners/dataresolve.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/trendmicro.png",
+            "src": "/partners/trendmicro.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/mcafee.png",
+            "src": "/partners/mcafee.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/hcl.png",
+            "src": "/partners/hcl.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/radware.png",
+            "src": "/partners/radware.png",
             "alt": ""
           }
         ]
@@ -1229,59 +1229,59 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Data Centre"
     ],
     "intro": "Data center build and integration of multiple solutions related to data center, integration of passive and active components including design , supply and execution",
-    "heroImage": "/assets/images/stock/core/sc.png",
+    "heroImage": "/images/data_center_202607311602.jpeg",
     "heroAlt": "",
     "services": [
       {
         "title": "Data center optimisation",
         "description": "Optimisation of the data center components for more cost effective usage and deployment",
-        "image": "/assets/images/services-pages/data-center/server.svg",
+        "image": "/images/data_center_optimization_202607311602.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Efficient operation",
         "description": "Integrated view for ease of management and scalability",
-        "image": "/assets/images/services-pages/data-center/server.svg",
+        "image": "/images/Data_center-operations_202607311604.jpeg",
         "imageAlt": ""
       },
       {
         "title": "360 degree services for DC components",
         "description": "Round the clock service for all critical components to be deployed in DC",
-        "image": "/assets/images/services-pages/data-center/server.svg",
+        "image": "/images/data_center-360_202607311606.jpeg",
         "imageAlt": ""
       }
     ],
     "partners": [
       {
-        "src": "/assets/images/our-partners/cisco.png",
+        "src": "/partners/cisco.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/HPE.png",
+        "src": "/partners/HPE.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/dell.png",
+        "src": "/partners/dell.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/juniper.png",
+        "src": "/partners/juniper.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/arista.png",
+        "src": "/partners/arista.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/extreme.png",
+        "src": "/partners/extreme.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/fortinet.png",
+        "src": "/partners/fortinet.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/avaya.png",
+        "src": "/partners/avaya.png",
         "alt": ""
       }
     ],
@@ -1299,7 +1299,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/stock/core/sc.png",
+            "src": "/images/sc.png",
             "alt": ""
           }
         ]
@@ -1321,15 +1321,15 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/services-pages/data-center/server.svg",
+            "src": "/images/server.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/data-center/server.svg",
+            "src": "/images/server.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/data-center/server.svg",
+            "src": "/images/server.svg",
             "alt": ""
           }
         ]
@@ -1345,35 +1345,35 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/our-partners/cisco.png",
+            "src": "/partners/cisco.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/HPE.png",
+            "src": "/partners/HPE.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/dell.png",
+            "src": "/partners/dell.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/juniper.png",
+            "src": "/partners/juniper.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/arista.png",
+            "src": "/partners/arista.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/extreme.png",
+            "src": "/partners/extreme.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/fortinet.png",
+            "src": "/partners/fortinet.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/avaya.png",
+            "src": "/partners/avaya.png",
             "alt": ""
           }
         ]
@@ -1390,71 +1390,71 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Infrastructure Management"
     ],
     "intro": "",
-    "heroImage": "/assets/images/stock/core/im.png",
+    "heroImage": "/images/infrastructure_manage…_202607311613.jpeg",
     "heroAlt": "",
     "services": [
       {
         "title": "Data Center Solutions",
         "description": "Data center build and integration of multiple solutions related to data center",
-        "image": "/assets/images/services-pages/infra/server.svg",
+        "image": "/images/Infra-Data center soln.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Enterprise Mobility Solutions",
         "description": "Anytime anywhere any device secure connectivity to all stakeholders in an organisation",
-        "image": "/assets/images/services-pages/infra/test.svg",
+        "image": "/images/Enterprise_professionals_working…_202607311630.jpeg",
         "imageAlt": ""
       },
       {
         "title": "High Performance Computing Solutions",
         "description": "HPC Infiniband as well as IP based solutions with complete sizing , design , supply and execution",
-        "image": "/assets/images/services-pages/infra/computer.svg",
+        "image": "/images/HPC_high_perf_computing_202607311617.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Enterprise Network Solutions",
         "description": "Network monitoring , management and help desk integration for round the clock support",
-        "image": "/assets/images/services-pages/infra/lan.svg",
+        "image": "/images/Enterprise_Network_soln_202607311619.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Enterprise Management Solutions (EMS)",
         "description": "Turnkey IT management using best in class EMS solution for your requirement",
-        "image": "/assets/images/services-pages/infra/bank.svg",
+        "image": "/images/Enterprise_management_soln_202607311620.jpeg",
         "imageAlt": ""
       }
     ],
     "partners": [
       {
-        "src": "/assets/images/our-partners/cisco.png",
+        "src": "/partners/cisco.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/HPE.png",
+        "src": "/partners/HPE.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/dell.png",
+        "src": "/partners/dell.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/juniper.png",
+        "src": "/partners/juniper.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/arista.png",
+        "src": "/partners/arista.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/extreme.png",
+        "src": "/partners/extreme.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/fortinet.png",
+        "src": "/partners/fortinet.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/avaya.png",
+        "src": "/partners/avaya.png",
         "alt": ""
       }
     ],
@@ -1470,7 +1470,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/stock/core/im.png",
+            "src": "/images/im.png",
             "alt": ""
           }
         ]
@@ -1496,23 +1496,23 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/services-pages/infra/server.svg",
+            "src": "/images/server.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/infra/test.svg",
+            "src": "/images/test.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/infra/computer.svg",
+            "src": "/images/computer.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/infra/lan.svg",
+            "src": "/images/lan.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/infra/bank.svg",
+            "src": "/images/bank.svg",
             "alt": ""
           }
         ]
@@ -1528,35 +1528,35 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/our-partners/cisco.png",
+            "src": "/partners/cisco.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/HPE.png",
+            "src": "/partners/HPE.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/dell.png",
+            "src": "/partners/dell.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/juniper.png",
+            "src": "/partners/juniper.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/arista.png",
+            "src": "/partners/arista.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/extreme.png",
+            "src": "/partners/extreme.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/fortinet.png",
+            "src": "/partners/fortinet.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/avaya.png",
+            "src": "/partners/avaya.png",
             "alt": ""
           }
         ]
@@ -1573,29 +1573,29 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Managed Services"
     ],
     "intro": "",
-    "heroImage": "/assets/images/stock/core/ms.png",
+    "heroImage": "/images/Managed_Services_202607311644.jpeg",
     "heroAlt": "",
     "services": [
       {
         "title": "Faster Candidate Deployment",
         "description": "We ensure candidate deployment within 10 days of issuing of the order, and ensure that different government and corporate projects run uninterruptedly.",
-        "image": "/assets/images/services-pages/service/fast-delivery.svg",
+        "image": "/images/Candidate_deployment_202607311646.jpeg",
         "imageAlt": ""
       },
       {
         "title": "RMS for Employee Lifecycle Management",
         "description": "Our exclusive Resource Management System helps with complete employee lifecycle management, right from their hire to retire",
-        "image": "/assets/images/services-pages/service/reuse.svg",
+        "image": "/images/RMS_for_employees_202607311647.jpeg",
         "imageAlt": ""
       }
     ],
     "partners": [
       {
-        "src": "/assets/images/our-partners/everest-group.png",
+        "src": "/partners/everest-group.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/service-now.png",
+        "src": "/partners/service-now.png",
         "alt": ""
       }
     ],
@@ -1611,7 +1611,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/stock/core/ms.png",
+            "src": "/images/ms.png",
             "alt": ""
           }
         ]
@@ -1631,11 +1631,11 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/services-pages/service/fast-delivery.svg",
+            "src": "/images/fast-delivery.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/service/reuse.svg",
+            "src": "/images/reuse.svg",
             "alt": ""
           }
         ]
@@ -1651,11 +1651,11 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/our-partners/everest-group.png",
+            "src": "/partners/everest-group.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/service-now.png",
+            "src": "/partners/service-now.png",
             "alt": ""
           }
         ]
@@ -1672,87 +1672,87 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Networking"
     ],
     "intro": "Planning , designing (Building HLD's and LLD's) , supply , execution and support of your complete network. We provide single window turnkey networking solutions for best performance",
-    "heroImage": "/assets/images/stock/core/network.png",
+    "heroImage": "/images/networkinhero.png",
     "heroAlt": "",
     "services": [
       {
         "title": "Data Centre Network",
-        "description": "Data center network design , SDN enablement , end to end virtualisation and providing a seamless integration with compute resources",
-        "image": "/assets/images/services-pages/network/data-center.svg",
+        "description": "Data center network design , SDN enablement , end to end virtualisation and providing a seamless integration with compute resources.",
+        "image": "/images/networkin1.png",
         "imageAlt": ""
       },
       {
         "title": "LAN & WAN Solutions",
-        "description": "End to end LAN & WAN solutions using latest SDN led technology framework for a robust and scalable set up",
-        "image": "/assets/images/services-pages/network/lan.svg",
+        "description": "End to end LAN & WAN solutions using latest SDN led technology framework for a robust and scalable set up.",
+        "image": "/images/LAN-WAN SOLN.png",
         "imageAlt": ""
       },
       {
         "title": "Fiber to home",
-        "description": "Fiber to home deployment with a complete ownership of passive as well as active design along with execution",
-        "image": "/assets/images/services-pages/network/optic.svg",
+        "description": "Fiber to home deployment with a complete ownership of passive as well as active design along with execution.",
+        "image": "/images/FIBRE TO HOME.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Good Performance Wireless",
-        "description": "Wireless deployment using best in class heat mapping survey tools, access point mapping as per user density and controlling both on premise as well on cloud",
-        "image": "/assets/images/services-pages/network/wireless.svg",
+        "description": "Wireless deployment using best in class heat mapping survey tools, access point mapping as per user density and controlling both on premise as well on cloud.",
+        "image": "/images/GOOD PERF WIRELESS.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Virtual Private Network (VPN)",
-        "description": "End to end VPN enablement for providing a secure access to employees and other stakeholders to data resources and applications",
-        "image": "/assets/images/services-pages/network/vpn.svg",
+        "description": "End to end VPN enablement for providing a secure access to employees and other stakeholders to data resources and applications.",
+        "image": "/images/VPN.jpeg",
         "imageAlt": ""
       }
     ],
     "partners": [
       {
-        "src": "/assets/images/our-partners/cisco.png",
+        "src": "/partners/cisco.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/HPE.png",
+        "src": "/partners/HPE.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/dell.png",
+        "src": "/partners/dell.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/juniper.png",
+        "src": "/partners/juniper.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/arista.png",
+        "src": "/partners/arista.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/extreme.png",
+        "src": "/partners/extreme.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/fortinet.png",
+        "src": "/partners/fortinet.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/tejas-network.png",
+        "src": "/partners/tejas-network.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/ruckus.png",
+        "src": "/partners/ruckus.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/cambium_networks.png",
+        "src": "/partners/cambium_networks.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/avaya.png",
+        "src": "/partners/avaya.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/infoblox.png",
+        "src": "/partners/infoblox.png",
         "alt": ""
       }
     ],
@@ -1770,7 +1770,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/stock/core/network.png",
+            "src": "/images/network.png",
             "alt": ""
           }
         ]
@@ -1796,23 +1796,23 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/services-pages/network/data-center.svg",
+            "src": "/images/data-center.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/network/lan.svg",
+            "src": "/images/lan.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/network/optic.svg",
+            "src": "/images/optic.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/network/wireless.svg",
+            "src": "/images/wireless.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/network/vpn.svg",
+            "src": "/images/vpn.svg",
             "alt": ""
           }
         ]
@@ -1828,51 +1828,51 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/our-partners/cisco.png",
+            "src": "/partners/cisco.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/HPE.png",
+            "src": "/partners/HPE.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/dell.png",
+            "src": "/partners/dell.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/juniper.png",
+            "src": "/partners/juniper.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/arista.png",
+            "src": "/partners/arista.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/extreme.png",
+            "src": "/partners/extreme.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/fortinet.png",
+            "src": "/partners/fortinet.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/tejas-network.png",
+            "src": "/partners/tejas-network.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/ruckus.png",
+            "src": "/partners/ruckus.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/cambium_networks.png",
+            "src": "/partners/cambium_networks.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/avaya.png",
+            "src": "/partners/avaya.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/infoblox.png",
+            "src": "/partners/infoblox.png",
             "alt": ""
           }
         ]
@@ -1889,65 +1889,65 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Passive Network & Non IT"
     ],
     "intro": "",
-    "heroImage": "/assets/images/stock/core/pn.png",
+    "heroImage": "/images/Passive_networking_202607311523.jpeg",
     "heroAlt": "",
     "services": [
       {
         "title": "Fiber and copper laying",
         "description": "We do complete site survey and suggest a bill of material as per your locations and node requirements along with the exact path layout",
-        "image": "/assets/images/services-pages/passive/usb-cable.svg",
+        "image": "/images/Passive net-Fibre and copper.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Power solutions",
         "description": "UPS requirements for your datacenter as well as for a multi UPS set up is provided based on a power calculation of your devices",
-        "image": "/assets/images/services-pages/passive/thunderbolt.svg",
+        "image": "/images/Passive net- power soln.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Racks",
         "description": "Racks as per requirement are suggested with PDU's and other associated components",
-        "image": "/assets/images/services-pages/passive/server.svg",
+        "image": "/images/Passive net- Racks.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Chemical earthing",
         "description": "Chemical earthing is done as per the requirement",
-        "image": "/assets/images/services-pages/passive/test.svg",
+        "image": "/images/Passive net- chemical earthing.jpeg",
         "imageAlt": ""
       }
     ],
     "partners": [
       {
-        "src": "/assets/images/our-partners/commscope.png",
+        "src": "/partners/commscope.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/er&m.png",
+        "src": "/partners/er&m.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/molex.png",
+        "src": "/partners/molex.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/3c3.png",
+        "src": "/partners/3c3.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/eaton.png",
+        "src": "/partners/eaton.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/apc.png",
+        "src": "/partners/apc.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/rittal.png",
+        "src": "/partners/rittal.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/apw.png",
+        "src": "/partners/apw.png",
         "alt": ""
       }
     ],
@@ -1963,7 +1963,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/stock/core/pn.png",
+            "src": "/images/Passive_networking_202607311523.jpeg",
             "alt": ""
           }
         ]
@@ -1987,19 +1987,19 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/services-pages/passive/usb-cable.svg",
+            "src": "/images/usb-cable.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/passive/thunderbolt.svg",
+            "src": "/images/thunderbolt.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/passive/server.svg",
+            "src": "/images/server.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/passive/test.svg",
+            "src": "/images/test.svg",
             "alt": ""
           }
         ]
@@ -2015,35 +2015,35 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/our-partners/commscope.png",
+            "src": "/partners/commscope.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/er&m.png",
+            "src": "/partners/er&m.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/molex.png",
+            "src": "/partners/molex.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/3c3.png",
+            "src": "/partners/3c3.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/eaton.png",
+            "src": "/partners/eaton.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/apc.png",
+            "src": "/partners/apc.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/rittal.png",
+            "src": "/partners/rittal.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/apw.png",
+            "src": "/partners/apw.png",
             "alt": ""
           }
         ]
@@ -2060,51 +2060,51 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Physical Safety & Surveillance"
     ],
     "intro": "",
-    "heroImage": "/assets/images/stock/core/pss.png",
+    "heroImage": "/images/Physical_safety_202607311525.jpeg",
     "heroAlt": "",
     "services": [
       {
         "title": "Surveillance",
         "description": "Our CCTV solution design based on requirement , proposing the right set of equipment and execution of the same",
-        "image": "/assets/images/services-pages/cloud/migrating.svg",
+        "image": "/images/Physical_safety-_Survellience_202607311528.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Access control system",
         "description": "Physical access control solution of campuses",
-        "image": "/assets/images/services-pages/cloud/consulting.svg",
+        "image": "/images/Physical_safety-_access_control_system_202607311531.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Analytics",
         "description": "Implementing and configuration of the backend analytics tools.",
-        "image": "/assets/images/services-pages/cloud/cloud.svg",
+        "image": "/images/Physical_safety-analytics_202607311535.jpeg",
         "imageAlt": ""
       }
     ],
     "partners": [
       {
-        "src": "/assets/images/our-partners/nordon-surviellance.png",
+        "src": "/partners/nordon-surviellance.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/bosch.png",
+        "src": "/partners/bosch.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/honeywell.png",
+        "src": "/partners/honeywell.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/pelco.png",
+        "src": "/partners/pelco.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/cisco.png",
+        "src": "/partners/cisco.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/tyco.png",
+        "src": "/partners/tyco.png",
         "alt": ""
       }
     ],
@@ -2120,7 +2120,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/stock/core/pss.png",
+            "src": "/images/pss.png",
             "alt": ""
           }
         ]
@@ -2142,15 +2142,15 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/services-pages/cloud/migrating.svg",
+            "src": "/images/migrating.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/cloud/consulting.svg",
+            "src": "/images/consulting.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/cloud/cloud.svg",
+            "src": "/images/cloud.svg",
             "alt": ""
           }
         ]
@@ -2166,27 +2166,27 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/our-partners/nordon-surviellance.png",
+            "src": "/partners/nordon-surviellance.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/bosch.png",
+            "src": "/partners/bosch.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/honeywell.png",
+            "src": "/partners/honeywell.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/pelco.png",
+            "src": "/partners/pelco.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/cisco.png",
+            "src": "/partners/cisco.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/tyco.png",
+            "src": "/partners/tyco.png",
             "alt": ""
           }
         ]
@@ -2203,91 +2203,91 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Industry Leading Software"
     ],
     "intro": "Working with you to identify the best mix of licensing for minimum annual payouts",
-    "heroImage": "/assets/images/stock/core/sla.png",
+    "heroImage": "/images/Industsry_leading_202607311634.jpeg",
     "heroAlt": "",
     "services": [
       {
         "title": "Software Asset Management",
         "description": "We have adopted proven asset management methodologies to help our clients identify their business assets and ensure that they are correctly and effectively licensed.",
-        "image": "/assets/images/services-pages/software/software.svg",
+        "image": "/images/Asset_mgt_202607311636.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Software Licensing Assessment Services",
         "description": "Our software licensing assessment services are critical for businesses to obtain data about software and take immediate action",
-        "image": "/assets/images/services-pages/software/license.svg",
+        "image": "/images/licensing_as…_202607311637.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Self-Service Monitoring",
         "description": "Enjoy uninterrupted access to automated cloud monitoring and analytics. Get the best tools to procure, provision and manage cloud solutions.",
-        "image": "/assets/images/services-pages/software/research.svg",
+        "image": "/images/Self_service_monitoring…_202607311641.jpeg",
         "imageAlt": ""
       }
     ],
     "partners": [
       {
-        "src": "/assets/images/our-partners/cisco.png",
+        "src": "/partners/cisco.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/zscaler.png",
+        "src": "/partners/zscaler.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/ibm.png",
+        "src": "/partners/ibm.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/microfocus.png",
+        "src": "/partners/microfocus.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/paloalto.png",
+        "src": "/partners/paloalto.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/fortinet.png",
+        "src": "/partners/fortinet.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/array_networks.png",
+        "src": "/partners/array_networks.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/checkpoint.png",
+        "src": "/partners/checkpoint.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/f5.png",
+        "src": "/partners/f5.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/forescout.png",
+        "src": "/partners/forescout.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/dataresolve.png",
+        "src": "/partners/dataresolve.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/trendmicro.png",
+        "src": "/partners/trendmicro.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/mcafee.png",
+        "src": "/partners/mcafee.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/hcl.png",
+        "src": "/partners/hcl.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/radware.png",
+        "src": "/partners/radware.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/crowdstrike.png",
+        "src": "/partners/crowdstrike.png",
         "alt": ""
       }
     ],
@@ -2305,7 +2305,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/stock/core/sla.png",
+            "src": "/images/sla.png",
             "alt": ""
           }
         ]
@@ -2327,15 +2327,15 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/services-pages/software/software.svg",
+            "src": "/images/software.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/software/license.svg",
+            "src": "/images/license.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/software/research.svg",
+            "src": "/images/research.svg",
             "alt": ""
           }
         ]
@@ -2351,67 +2351,67 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/our-partners/cisco.png",
+            "src": "/partners/cisco.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/zscaler.png",
+            "src": "/partners/zscaler.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/ibm.png",
+            "src": "/partners/ibm.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/microfocus.png",
+            "src": "/partners/microfocus.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/paloalto.png",
+            "src": "/partners/paloalto.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/fortinet.png",
+            "src": "/partners/fortinet.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/array_networks.png",
+            "src": "/partners/array_networks.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/checkpoint.png",
+            "src": "/partners/checkpoint.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/f5.png",
+            "src": "/partners/f5.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/forescout.png",
+            "src": "/partners/forescout.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/dataresolve.png",
+            "src": "/partners/dataresolve.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/trendmicro.png",
+            "src": "/partners/trendmicro.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/mcafee.png",
+            "src": "/partners/mcafee.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/hcl.png",
+            "src": "/partners/hcl.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/radware.png",
+            "src": "/partners/radware.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/crowdstrike.png",
+            "src": "/partners/crowdstrike.png",
             "alt": ""
           }
         ]
@@ -2428,81 +2428,81 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Storage Compute & HCI"
     ],
     "intro": "We help you with sizing of your storage or compute requirements based on your application or data, add on services such as virtualisation or HCI is provided , supply and execution with overall support",
-    "heroImage": "/assets/images/stock/core/sc.png",
+    "heroImage": "/images/Storage_commute_202607311653.jpeg",
     "heroAlt": "",
     "services": [
       {
         "title": "Server infrastrcture",
         "description": "We do server sizing i.e racks/blades , supply and do execution",
-        "image": "/assets/images/services-pages/compute/server.svg",
+        "image": "/images/Server_infrastrcture_202607311658.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Storage infrastruture",
         "description": "We do storage sizing based on greenfield requirement or sizing augmentation of existing storage, supply and execution of the same",
-        "image": "/assets/images/services-pages/compute/server-2.svg",
+        "image": "/images/Storage_Infra_202607311700.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Virtualisation",
         "description": "End to to end virtualisation of storage and compute",
-        "image": "/assets/images/services-pages/compute/augmented-reality.svg",
+        "image": "/images/virtualization_202607311705.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Back up solution",
         "description": "We provide best of breed solutions for back up requirement",
-        "image": "/assets/images/services-pages/compute/backup.svg",
+        "image": "/images/backup_202607311707.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Operating system",
         "description": "OS as per requirement is provided based on requirement",
-        "image": "/assets/images/services-pages/compute/operating-system.svg",
+        "image": "/images/OS_202607311708.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Private Cloud Solutions",
         "description": "We deploy cloud-like infrastructure on-premises with lower costs, more control, and improved security",
-        "image": "/assets/images/services-pages/hci/private.svg",
+        "image": "/images/Enterprise_private_cloud_facility_202607311711.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Public cloud",
         "description": "We help you choose an as-a-service option from the largest HCI cloud ecosystem for faster speed of deployment and less time spent managing infrastructure",
-        "image": "/assets/images/services-pages/hci/cloud-storage.svg",
+        "image": "/images/Public_cloud_environment_202607311715.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Hybrid cloud capability",
         "description": "We help manage a mix of VM- and container-based applications, deployed across a mix of data center, public cloud and edge environments",
-        "image": "/assets/images/services-pages/hci/migrating.svg",
+        "image": "/images/WhatsApp Image 2026-07-31 at 5.18.26 PM.jpeg",
         "imageAlt": ""
       }
     ],
     "partners": [
       {
-        "src": "/assets/images/our-partners/netapp.png",
+        "src": "/partners/netapp.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/HPE.png",
+        "src": "/partners/HPE.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/dell.png",
+        "src": "/partners/dell.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/cisco.png",
+        "src": "/partners/cisco.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/nutanix.png",
+        "src": "/partners/nutanix.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/vmware.png",
+        "src": "/partners/vmware.png",
         "alt": ""
       }
     ],
@@ -2522,7 +2522,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/stock/core/sc.png",
+            "src": "/images/sc.png",
             "alt": ""
           }
         ]
@@ -2549,23 +2549,23 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/services-pages/compute/server.svg",
+            "src": "/images/server.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/compute/server-2.svg",
+            "src": "/images/server-2.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/compute/augmented-reality.svg",
+            "src": "/images/augmented-reality.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/compute/backup.svg",
+            "src": "/images/backup.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/compute/operating-system.svg",
+            "src": "/images/operating-system.svg",
             "alt": ""
           }
         ]
@@ -2588,15 +2588,15 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/services-pages/hci/private.svg",
+            "src": "/images/private.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/hci/cloud-storage.svg",
+            "src": "/images/cloud-storage.svg",
             "alt": ""
           },
           {
-            "src": "/assets/images/services-pages/hci/migrating.svg",
+            "src": "/images/migrating.svg",
             "alt": ""
           }
         ]
@@ -2612,27 +2612,27 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/our-partners/netapp.png",
+            "src": "/partners/netapp.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/HPE.png",
+            "src": "/partners/HPE.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/dell.png",
+            "src": "/partners/dell.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/cisco.png",
+            "src": "/partners/cisco.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/nutanix.png",
+            "src": "/partners/nutanix.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/vmware.png",
+            "src": "/partners/vmware.png",
             "alt": ""
           }
         ]
@@ -2649,36 +2649,36 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Virtualisation"
     ],
     "intro": "We do the complete virtualisation of the IT infrastructure starting from data center resources such as Compute , storage , network to application and desktop virtualisation",
-    "heroImage": "/assets/images/stock/core/var.png",
+    "heroImage": "/images/Virtualization_202607311649.jpeg",
     "heroAlt": "",
     "services": [],
     "partners": [
       {
-        "src": "/assets/images/our-partners/vmware.png",
+        "src": "/partners/vmware.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/redhat.png",
+        "src": "/partners/redhat.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/microsoft.png",
+        "src": "/partners/microsoft.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/cisco.png",
+        "src": "/partners/cisco.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/dell.png",
+        "src": "/partners/dell.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/emc.png",
+        "src": "/partners/emc.png",
         "alt": ""
       },
       {
-        "src": "/assets/images/our-partners/netapp.png",
+        "src": "/partners/netapp.png",
         "alt": ""
       }
     ],
@@ -2696,7 +2696,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/stock/core/var.png",
+            "src": "/images/Virtualization_202607311649.jpeg",
             "alt": ""
           }
         ]
@@ -2712,31 +2712,31 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "lists": [],
         "images": [
           {
-            "src": "/assets/images/our-partners/vmware.png",
+            "src": "/partners/vmware.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/redhat.png",
+            "src": "/partners/redhat.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/microsoft.png",
+            "src": "/partners/microsoft.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/cisco.png",
+            "src": "/partners/cisco.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/dell.png",
+            "src": "/partners/dell.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/emc.png",
+            "src": "/partners/emc.png",
             "alt": ""
           },
           {
-            "src": "/assets/images/our-partners/netapp.png",
+            "src": "/partners/netapp.png",
             "alt": ""
           }
         ]
@@ -2749,3 +2749,4 @@ export const SOLUTION_DETAIL_MAP: Record<string, SolutionDetail> = SOLUTION_DETA
   map[item.slug] = item;
   return map;
 }, {} as Record<string, SolutionDetail>);
+

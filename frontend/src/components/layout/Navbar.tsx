@@ -4,32 +4,18 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useScrollPosition } from '../../hooks/useScrollPosition';
 import { Logo } from '../common/Logo';
 import { Button } from '../common/Button';
+import { SolutionIcon } from '../common/SolutionIcon';
 import { SOLUTIONS, COMPANY_INFO } from '../../data/companyData';
 import {
   ChevronDown,
   Menu,
   X,
-  PhoneCall,
-  Server,
-  ShieldCheck,
-  Network,
-  Headset,
-  Laptop,
-  Database
+  PhoneCall
 } from 'lucide-react';
 
 interface NavbarProps {
   onOpenQuoteModal: (solutionId?: string) => void;
 }
-
-const iconMap: Record<string, React.ReactNode> = {
-  Server: <Server className="w-5 h-5 text-[#0A66C2]" />,
-  ShieldCheck: <ShieldCheck className="w-5 h-5 text-[#0A66C2]" />,
-  Network: <Network className="w-5 h-5 text-[#0A66C2]" />,
-  Headset: <Headset className="w-5 h-5 text-[#0A66C2]" />,
-  Laptop: <Laptop className="w-5 h-5 text-[#0A66C2]" />,
-  Database: <Database className="w-5 h-5 text-[#0A66C2]" />,
-};
 
 export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal }) => {
   const scrollY = useScrollPosition();
@@ -180,8 +166,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal }) => {
                         onClick={() => setSolutionsOpen(false)}
                         className="flex items-start gap-3 p-2.5 rounded-xl hover:bg-[#F8FAFC] transition-colors group/item"
                       >
-                        <div className="p-2 rounded-lg bg-[#EAF4FF] group-hover/item:bg-[#0A66C2] group-hover/item:text-white transition-colors">
-                          {iconMap[sol.iconName] || <Server className="w-5 h-5 text-[#0A66C2]" />}
+                        <div className="p-2 rounded-lg bg-[#EAF4FF] text-[#0A66C2] group-hover/item:bg-[#0A66C2] group-hover/item:[&>svg]:text-white transition-colors">
+                          <SolutionIcon name={sol.iconName} className="w-5 h-5" />
                         </div>
                         <div>
                           <h4 className="text-sm font-heading font-bold text-[#1E293B] group-hover/item:text-[#0A66C2] transition-colors">

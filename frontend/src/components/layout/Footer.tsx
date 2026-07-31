@@ -31,47 +31,7 @@ export const Footer: React.FC = () => {
   return (
     <footer className="bg-[#0A192F] text-slate-300 font-body pt-16 pb-8 border-t border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Top Newsletter / CTA Bar */}
-        <div className="bg-gradient-to-r from-[#0F3D91] to-[#0A66C2] rounded-2xl p-8 sm:p-10 mb-16 shadow-xl flex flex-col lg:flex-row items-center justify-between gap-8">
-          <div className="max-w-xl">
-            <span className="text-xs font-semibold uppercase tracking-widest text-blue-200 bg-white/10 px-3 py-1 rounded-full border border-white/20 mb-3 inline-block">
-              Enterprise Technology Newsletter
-            </span>
-            <h3 className="text-2xl sm:text-3xl font-heading font-extrabold text-white">
-              Stay ahead in Cloud, Cybersecurity & Data Center Infrastructure.
-            </h3>
-            <p className="text-blue-100 text-sm mt-2">
-              Receive quarterly technical whitepapers, OEM release advisories, and architecture guidelines.
-            </p>
-          </div>
 
-          <form onSubmit={handleSubscribe} className="w-full lg:w-auto flex flex-col sm:flex-row gap-3 min-w-[320px] sm:min-w-[420px]">
-            {subscribeSuccess ? (
-              <div className="bg-white/10 border border-white/30 text-white rounded-lg p-3 text-center text-sm font-medium w-full flex items-center justify-center gap-2">
-                <CheckCircle2 className="w-5 h-5 text-emerald-400" />
-                <span>Subscribed! Check your inbox for confirmation.</span>
-              </div>
-            ) : (
-              <>
-                <input
-                  type="email"
-                  required
-                  placeholder="Enter corporate email..."
-                  value={subscribedEmail}
-                  onChange={(e) => setSubscribedEmail(e.target.value)}
-                  className="px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-blue-200 text-sm focus:outline-none focus:ring-2 focus:ring-white flex-1"
-                />
-                <button
-                  type="submit"
-                  className="bg-white text-[#0A66C2] hover:bg-blue-50 font-heading font-bold px-6 py-3 rounded-lg text-sm transition-colors flex items-center justify-center gap-2 cursor-pointer shrink-0"
-                >
-                  <span>Subscribe</span>
-                  <ArrowRight className="w-4 h-4" />
-                </button>
-              </>
-            )}
-          </form>
-        </div>
 
         {/* Main Footer Links Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800">
@@ -208,8 +168,7 @@ export const Footer: React.FC = () => {
 
           <div className="flex items-center gap-6">
             <span>© AIPL 2017-2024 | Arsenal Infosolutions Pvt. Ltd.</span>
-            <a href="#" className="hover:text-slate-300">Privacy Policy</a>
-            <a href="#" className="hover:text-slate-300">Terms of Service</a>
+            
           </div>
         </div>
       </div>

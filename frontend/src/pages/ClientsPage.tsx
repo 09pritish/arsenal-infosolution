@@ -1,4 +1,5 @@
 import React from 'react';
+import { PageBackgroundEffects } from '../components/common/PageBackgroundEffects';
 
 const CLIENTS = [
   { id: 'becil', name: 'BECIL', logo: 'becil.png' },
@@ -18,8 +19,9 @@ const CLIENTS = [
 
 export const ClientsPage: React.FC = () => (
   <div className="space-y-28 pb-28">
-    <section className="bg-gradient-to-b from-[#EAF4FF]/60 via-[#F8FAFC] to-[#F8FAFC] py-16 sm:py-20 border-b border-[#E2E8F0]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+    <section className="relative overflow-hidden bg-gradient-to-b from-[#F8FAFC] via-[#EAF4FF]/40 to-[#F8FAFC] py-16 sm:py-20 border-b border-[#E2E8F0]">
+      <PageBackgroundEffects />
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
         <span className="text-xs font-semibold uppercase tracking-widest text-[#0A66C2] bg-[#EAF4FF] px-3 py-1 rounded-full border border-blue-200">
           Arsenal Infosolutions
         </span>

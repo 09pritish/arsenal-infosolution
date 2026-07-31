@@ -2,30 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Solution } from '../../types';
 import {
-  Server,
-  ShieldCheck,
-  Network,
-  Headset,
-  Laptop,
-  Database,
   ArrowRight,
-  Check
+  Check,
 } from 'lucide-react';
 import { Button } from '../common/Button';
+import { SolutionIcon } from '../common/SolutionIcon';
 
 interface SolutionCardProps {
   solution: Solution;
   onQuoteClick?: (solutionId: string) => void;
 }
-
-const iconMap: Record<string, React.ReactNode> = {
-  Server: <Server className="w-6 h-6" />,
-  ShieldCheck: <ShieldCheck className="w-6 h-6" />,
-  Network: <Network className="w-6 h-6" />,
-  Headset: <Headset className="w-6 h-6" />,
-  Laptop: <Laptop className="w-6 h-6" />,
-  Database: <Database className="w-6 h-6" />,
-};
 
 export const SolutionCard: React.FC<SolutionCardProps> = ({ solution, onQuoteClick }) => {
   return (
@@ -34,7 +20,7 @@ export const SolutionCard: React.FC<SolutionCardProps> = ({ solution, onQuoteCli
         {/* Header Icon + Badge */}
         <div className="flex items-center justify-between mb-6">
           <div className="w-14 h-14 rounded-xl bg-[#EAF4FF] text-[#0A66C2] flex items-center justify-center group-hover:bg-[#0A66C2] group-hover:text-white transition-colors duration-300 shadow-xs">
-            {iconMap[solution.iconName] || <Server className="w-6 h-6" />}
+            <SolutionIcon name={solution.iconName} className="w-6 h-6" />
           </div>
           <span className="text-xs font-semibold uppercase tracking-wider text-[#0A66C2] bg-blue-50 px-2.5 py-1 rounded-full font-body">
             {solution.category}
