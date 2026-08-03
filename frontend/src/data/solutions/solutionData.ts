@@ -7,7 +7,7 @@ export const SOLUTIONS: Solution[] = [
     "title": "Amazon Web Services (AWS)",
     "shortDescription": "We provide comprehensive AWS cloud solutions that help organizations accelerate digital transformation through secure, scalable, and cost-effective cloud infrastructure. Our AWS services enable businesses to design, deploy, migrate, and manage cloud environments with improved flexibility, performance, and reliability. We help organizations leverage AWS capabilities to optimize operations, modernize applications, and achieve faster business growth through innovative cloud technologies. ",
     "fullDescription": "We provide comprehensive AWS cloud solutions that help organizations accelerate digital transformation through secure, scalable, and cost-effective cloud infrastructure. Our AWS services enable businesses to design, deploy, migrate, and manage cloud environments with improved flexibility, performance, and reliability. We help organizations leverage AWS capabilities to optimize operations, modernize applications, and achieve faster business growth through innovative cloud technologies. ",
-    "iconName": "Server",
+    "iconName": "Cloud",
     "category": "cloud",
     "keyFeatures": [
       "Compute",
@@ -50,7 +50,7 @@ export const SOLUTIONS: Solution[] = [
     "title": "Cloud",
     "shortDescription": "We provide cloud consulting, migration, deployment, and management services across leading cloud platforms. Our cloud solutions help businesses improve agility, reduce infrastructure costs, enhance scalability, and accelerate digital transformation.",
     "fullDescription": "We provide cloud consulting, migration, deployment, and management services across leading cloud platforms. Our cloud solutions help businesses improve agility, reduce infrastructure costs, enhance scalability, and accelerate digital transformation.",
-    "iconName": "Server",
+    "iconName": "CloudCog",
     "category": "cloud",
     "keyFeatures": [
       "Cloud Productivity Solution",
@@ -76,7 +76,7 @@ export const SOLUTIONS: Solution[] = [
     "title": "Collaboration",
     "shortDescription": "We provide next-generation collaboration solutions that empower organizations to communicate, connect, and work efficiently across locations. Our comprehensive portfolio includes conferencing, unified communications, contact centre solutions, collaboration endpoints, and intelligent workplace technologies. We help businesses improve productivity, enhance employee experiences, and enable seamless collaboration through secure, scalable, and flexible communication platforms.",
     "fullDescription": "We provide next-generation collaboration solutions that empower organizations to communicate, connect, and work efficiently across locations. Our comprehensive portfolio includes conferencing, unified communications, contact centre solutions, collaboration endpoints, and intelligent workplace technologies. We help businesses improve productivity, enhance employee experiences, and enable seamless collaboration through secure, scalable, and flexible communication platforms.",
-    "iconName": "Laptop",
+    "iconName": "MessagesSquare",
     "category": "workplace",
     "keyFeatures": [
       "Conferencing",
@@ -137,7 +137,7 @@ export const SOLUTIONS: Solution[] = [
     "title": "Data Centre",
     "shortDescription": "We provide comprehensive data centre solutions designed to help organizations build, optimize, and manage secure, scalable, and high-performing IT environments. Our expertise covers data centre optimization, infrastructure management, and end-to-end support services for critical components. We help businesses improve operational efficiency, reduce infrastructure costs, and ensure maximum availability of their data centre operations.",
     "fullDescription": "We provide comprehensive data centre solutions designed to help organizations build, optimize, and manage secure, scalable, and high-performing IT environments. Our expertise covers data centre optimization, infrastructure management, and end-to-end support services for critical components. We help businesses improve operational efficiency, reduce infrastructure costs, and ensure maximum availability of their data centre operations.",
-    "iconName": "Database",
+    "iconName": "HardDrive",
     "category": "datacenter",
     "keyFeatures": [
       "Data center optimisation",
@@ -163,7 +163,7 @@ export const SOLUTIONS: Solution[] = [
     "title": "Infrastructure Management",
     "shortDescription": "We provide comprehensive infrastructure management solutions that help organizations monitor, manage, and optimize their complete IT environment. Our services include data centre management, enterprise mobility, high-performance computing, network management, and enterprise monitoring solutions. We enable businesses to achieve improved performance, enhanced security, reduced downtime, and efficient management of critical IT infrastructure.",
     "fullDescription": "We provide comprehensive infrastructure management solutions that help organizations monitor, manage, and optimize their complete IT environment. Our services include data centre management, enterprise mobility, high-performance computing, network management, and enterprise monitoring solutions. We enable businesses to achieve improved performance, enhanced security, reduced downtime, and efficient management of critical IT infrastructure.",
-    "iconName": "Layers",
+    "iconName": "Layers3",
     "category": "datacenter",
     "keyFeatures": [
       "Data Center Solutions",
@@ -242,7 +242,7 @@ export const SOLUTIONS: Solution[] = [
     "title": "Passive Network & Non IT",
     "shortDescription": "We provide complete passive networking infrastructure solutions including design, supply, installation, and implementation. Our structured cabling solutions ensure reliable connectivity, scalability, and high-performance network infrastructure for modern enterprises.",
     "fullDescription": "We provide complete passive networking infrastructure solutions including design, supply, installation, and implementation. Our structured cabling solutions ensure reliable connectivity, scalability, and high-performance network infrastructure for modern enterprises.",
-    "iconName": "Network",
+    "iconName": "Cable",
     "category": "networking",
     "keyFeatures": [
       "Fiber and copper laying",
@@ -267,9 +267,9 @@ export const SOLUTIONS: Solution[] = [
     "id": "physical-safety",
     "slug": "physical-safety",
     "title": "Physical Safety & Surveillance",
-    "shortDescription": "",
-    "fullDescription": "",
-    "iconName": "ShieldCheck",
+    "shortDescription": "We provide comprehensive Physical Safety & Surveillance solutions designed to protect people, assets, and critical infrastructure through intelligent security technologies. Our offerings include advanced surveillance systems, access control, video management, security analytics, and integrated safety solutions that enhance situational awareness, strengthen facility security, and enable proactive threat detection. With scalable and reliable solutions, we help organizations create safer workplaces while ensuring continuous monitoring, operational efficiency, and regulatory compliance.",
+    "fullDescription": "We provide comprehensive Physical Safety & Surveillance solutions designed to protect people, assets, and critical infrastructure through intelligent security technologies. Our offerings include advanced surveillance systems, access control, video management, security analytics, and integrated safety solutions that enhance situational awareness, strengthen facility security, and enable proactive threat detection. With scalable and reliable solutions, we help organizations create safer workplaces while ensuring continuous monitoring, operational efficiency, and regulatory compliance.",
+    "iconName": "Camera",
     "category": "security",
     "keyFeatures": [
       "Surveillance",
@@ -565,7 +565,32 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
     "intro": "We provide Application Performance Management solutions that help organizations monitor, analyze, and optimize application performance. Our solutions ensure better application availability, improved user experience, and faster identification of performance-related issues.",
     "heroImage": "/images/Application performance manag.jpeg",
     "heroAlt": "",
-    "services": [],
+    "services": [
+  {
+    "title": "Application Performance Monitoring",
+    "description": "We provide end-to-end application performance monitoring solutions that deliver real-time visibility into application health, infrastructure performance, and user experience. Our solutions help organizations proactively identify bottlenecks, reduce downtime, and ensure optimal application availability.",
+    "image": "/images/apm1.jpeg",
+    "imageAlt": ""
+  },
+  {
+    "title": "Root Cause Analysis",
+    "description": "Our advanced root cause analysis solutions quickly identify the underlying causes of application and infrastructure issues. By correlating data across applications, databases, servers, and networks, we help organizations minimize troubleshooting time and restore services faster.",
+    "image": "/images/apm2.jpeg",
+    "imageAlt": ""
+  },
+  {
+    "title": "Real User Monitoring",
+    "description": "We provide real user monitoring solutions that capture actual user interactions and measure application performance from the end-user perspective. Our solutions help organizations improve customer experience by identifying performance issues before they impact business operations.",
+    "image": "/images/apm3.jpeg",
+    "imageAlt": ""
+  },
+  {
+    "title": "Application Analytics & Reporting",
+    "description": "Our application analytics solutions provide actionable insights into application performance, business transactions, and operational trends. We enable organizations to make data-driven decisions, improve service quality, and optimize application performance across hybrid and cloud environments.",
+    "image": "/images/apm4.jpeg",
+    "imageAlt": ""
+  }
+],
     "partners": [
       {
         "src": "/partners/cisco.png",
@@ -578,46 +603,23 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
     ],
     "sections": [
       {
-        "classes": [
-          "section-row"
-        ],
-        "headings": [
-          "Application Performance Management",
-          "Our Capabilities:"
-        ],
-        "paragraphs": [
-          "We provide Application Performance Management solutions that help organizations monitor, analyze, and optimize application performance. Our solutions ensure better application availability, improved user experience, and faster identification of performance-related issues."
-        ],
-        "lists": [
-          [
-            "Deep dive monitoring of application which drills down to code and database query running in the application",
-            "Root Cause Analysis: Enable correlated root cause analysis. Save precious time of your architects Across hybrid and complex environments",
-            "Enable correlated root cause analysis. Save precious time of your architects",
-            "Across hybrid and complex environments",
-            "Real user monitoring indicates impact of application problem and also analysis user behavior and trend",
-            "Provides metrics which can integrated with CI/CD tools to per real time decision making on complete deployment pipeline",
-            "Improve response time and user experience",
-            "Correlate performance to business"
-          ],
-          [
-            "Enable correlated root cause analysis. Save precious time of your architects",
-            "Across hybrid and complex environments"
-          ],
-          [
-            "Architect and design application performance tool deployment across enterprise application ecosystem.",
-            "Derive business specific metrics from real time application transactions",
-            "Integrate applications performance management in software delivery lifecycle",
-            "Capability on industry leaders including AppD",
-            "Integrate with Service Management tools for SLA management and Kibana for Intuitive -Dashboards."
-          ]
-        ],
-        "images": [
-          {
-            "src": "/images/apm.png",
-            "alt": ""
-          }
-        ]
-      },
+  "classes": [
+    "section-row"
+  ],
+  "headings": [
+    "Application Performance Management"
+  ],
+  "paragraphs": [
+    "We provide Application Performance Management solutions that help organizations monitor, analyze, and optimize application performance. Our solutions improve application availability, enhance end-user experience, accelerate issue resolution, and provide complete visibility across enterprise applications and IT infrastructure."
+  ],
+  "lists": [],
+  "images": [
+    {
+      "src": "/images/Application performance manag.jpeg",
+      "alt": ""
+    }
+  ]
+},
       {
         "classes": [
           "section-row"
@@ -1397,7 +1399,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Solutions",
       "Infrastructure Management"
     ],
-    "intro": "",
+    "intro": "We provide comprehensive infrastructure management solutions that help organizations monitor, manage, and optimize their complete IT environment. Our services include data centre management, enterprise mobility, high-performance computing, network management, and enterprise monitoring solutions. We enable businesses to achieve improved performance, enhanced security, reduced downtime, and efficient management of critical IT infrastructure.",
     "heroImage": "/images/infrastructure_manage…_202607311613.jpeg",
     "heroAlt": "",
     "services": [
@@ -1580,7 +1582,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Solutions",
       "Managed Services"
     ],
-    "intro": "",
+    "intro": "We provide comprehensive managed services that help organizations improve IT efficiency, reduce operational complexity, and ensure reliable technology performance. Our proactive approach includes monitoring, management, maintenance, and support of IT infrastructure to enhance availability, security, and business continuity.",
     "heroImage": "/images/Managed_Services_202607311644.jpeg",
     "heroAlt": "",
     "services": [
@@ -1615,7 +1617,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "headings": [
           "Managed Services"
         ],
-        "paragraphs": [],
+        "paragraphs": ["We provide comprehensive managed services that help organizations improve IT efficiency, reduce operational complexity, and ensure reliable technology performance. Our proactive approach includes monitoring, management, maintenance, and support of IT infrastructure to enhance availability, security, and business continuity."],
         "lists": [],
         "images": [
           {
@@ -1896,7 +1898,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Solutions",
       "Passive Network & Non IT"
     ],
-    "intro": "",
+    "intro": "We provide complete passive networking infrastructure solutions including design, supply, installation, and implementation. Our structured cabling solutions ensure reliable connectivity, scalability, and high-performance network infrastructure for modern enterprises.",
     "heroImage": "/images/Passive_networking_202607311523.jpeg",
     "heroAlt": "",
     "services": [
@@ -2067,7 +2069,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Solutions",
       "Physical Safety & Surveillance"
     ],
-    "intro": "",
+    "intro": "We provide comprehensive Physical Safety & Surveillance solutions designed to protect people, assets, and critical infrastructure through intelligent security technologies. Our offerings include advanced surveillance systems, access control, video management, security analytics, and integrated safety solutions that enhance situational awareness, strengthen facility security, and enable proactive threat detection. With scalable and reliable solutions, we help organizations create safer workplaces while ensuring continuous monitoring, operational efficiency, and regulatory compliance.",
     "heroImage": "/images/Physical_safety_202607311525.jpeg",
     "heroAlt": "",
     "services": [

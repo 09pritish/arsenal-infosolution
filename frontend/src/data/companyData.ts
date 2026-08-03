@@ -46,7 +46,17 @@ export const SOLUTIONS = [
   solution('managed-services','Managed Services','managed','Headset','ms.png','We provide comprehensive managed services that help organizations improve IT efficiency, reduce operational complexity, and ensure reliable technology performance. Our proactive approach includes monitoring, management, maintenance, and support of IT infrastructure to enhance availability, security, and business continuity.',['Faster Candidate Deployment'],['ServiceNow']),
   solution('software-licensing','Industry Leading Software','workplace','KeyRound','sla.png','Software licensing optimization.',['Software Asset Management'],['Cisco']),
   solution('application-monitoring','Application Performance Management','managed','Activity','apm.png','Application performance management.',['Our Capabilities'],['Dynatrace']),
-  solution('passive-network','Passive Network & Non IT','networking','Cable','pn.png','Passive networking solutions.',['Fiber And Copper Laying'],['CommScope']),
+  solution(
+  'passive-network',
+  'Passive Network & Non IT',
+  'networking',
+  'Cable',
+  'pn.png',
+  'We provide complete passive networking infrastructure solutions including design, supply, installation, and implementation. Our structured cabling solutions ensure reliable connectivity, scalability, and high-performance network infrastructure for modern enterprises.',
+  ['Fiber And Copper Laying'],
+  ['CommScope']
+),
+
   solution('physical-safety','Physical Safety & Surveillance','security','Camera','pss.png','Physical safety & surveillance.',['Surveillance'],['Bosch']),
   solution('collaboration','Collaboration','workplace','MessagesSquare','collaboration.png','Collaboration solutions.',['Conferencing'],['Cisco']),
   solution('data-centre','Data Centre','datacenter','Building2','sc.png','Data center build and integration.',['Data Center Optimisation'],['Cisco']),

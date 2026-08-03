@@ -4,17 +4,21 @@ import {
   Building2,
   Cable,
   Camera,
+  CheckCircle2,
   Cloud,
   CloudCog,
+  Database,
   HardDrive,
   Headset,
   KeyRound,
+  Laptop,
   Layers3,
   MessagesSquare,
   Monitor,
   Network,
   Server,
   ShieldCheck,
+  Zap,
   type LucideIcon,
 } from 'lucide-react';
 
@@ -22,6 +26,8 @@ const solutionIcons: Record<string, LucideIcon> = {
   Network,
   ShieldCheck,
   Cloud,
+  CloudCog,
+  Database,
   HardDrive,
   Monitor,
   Headset,
@@ -32,7 +38,9 @@ const solutionIcons: Record<string, LucideIcon> = {
   MessagesSquare,
   Building2,
   Layers3,
-  CloudCog,
+  Zap,
+  CheckCircle2,
+  Laptop,
 };
 
 interface SolutionIconProps {
