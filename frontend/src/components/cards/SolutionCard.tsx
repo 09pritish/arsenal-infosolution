@@ -32,10 +32,7 @@ export const SolutionCard: React.FC<SolutionCardProps> = ({ solution, onQuoteCli
           {solution.title}
         </h3>
 
-        {/* Short Description */}
-        <p className="text-[#475569] font-body text-sm leading-relaxed mb-6">
-          {solution.shortDescription}
-        </p>
+        {/* Short Description intentionally hidden on card previews to keep overview pages clean. */}
 
         {/* Key Features bullet points */}
         <div className="space-y-2 mb-8 border-t border-[#F1F5F9] pt-4">

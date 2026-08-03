@@ -16,12 +16,34 @@ const solution = (id: string, title: string, category: Solution['category'], ico
 });
 
 export const SOLUTIONS = [
-  solution('network','Networking','networking','Network','network.png','Planning, designing (building HLDs and LLDs), supply, execution and support of your complete network. We provide single-window turnkey networking solutions for best performance.',['Data Centre Network','LAN & WAN Solutions','Fiber To Home','Good Performance Wireless','Virtual Private Network (VPN)'],['Cisco']),
-  solution('cyber-security','Cyber Security','security','ShieldCheck','cs.png','Cyber security is one of the key challenges faced by all of us. We help you build a robust, secure framework for addressing your security concerns with focus on monitoring, reporting and mitigation.',['Endpoint Security','Cloud Security'],['Cisco']),
-  solution('cloud','Cloud','cloud','Cloud','cloud.png','Cloud-based solutions including designing and provisioning across a range of cloud service providers.',['Cloud Productivity Solution'],['AWS']),
-  solution('storage-compute','Storage Compute & HCI','datacenter','HardDrive','sc.png','We help you with sizing of storage or compute requirements.',['Server Infrastructure'],['NetApp']),
-  solution('virtualisation','Virtualisation','workplace','Monitor','var.png','Complete virtualisation of IT infrastructure.',[],['VMware']),
-  solution('managed-services','Managed Services','managed','Headset','ms.png','Managed services.',['Faster Candidate Deployment'],['ServiceNow']),
+  solution('network','Networking','networking','Network','network.png','We deliver end-to-end networking solutions designed to build secure, scalable, and high-performance IT infrastructures. Our experts specialize in network planning, architecture design, implementation, and support services to help organizations achieve seamless connectivity, improved efficiency, and reliable business operations.',['Data Centre Network','LAN & WAN Solutions','Fiber To Home','Good Performance Wireless','Virtual Private Network (VPN)'],['Cisco']),
+  solution('cyber-security','Cyber Security','security','ShieldCheck','cs.png','Cyber threats are continuously evolving, making security a critical requirement for every organization. We provide advanced cybersecurity solutions focused on threat prevention, monitoring, detection, and response to protect your digital infrastructure, applications, and sensitive business data.',['Endpoint Security','Cloud Security'],['Cisco']),
+  solution('cloud','Cloud','cloud','Cloud','cloud.png','We provide cloud consulting, migration, deployment, and management services across leading cloud platforms. Our cloud solutions help businesses improve agility, reduce infrastructure costs, enhance scalability, and accelerate digital transformation.',['Cloud Productivity Solution'],['AWS']),
+  solution('storage-compute','Storage Compute & HCI','datacenter','HardDrive','sc.png','We provide advanced storage, compute, and hyper-converged infrastructure solutions designed to support modern enterprise workloads. Our solutions help organizations achieve high availability, improved performance, simplified management, and scalable IT infrastructure to meet evolving business requirements.',['Server Infrastructure'],['NetApp']),
+  solution(
+  'virtualisation',
+  'Virtualisation',
+  'datacenter',
+  'Monitor',
+  'var.png',
+  'We provide complete virtualisation solutions for IT infrastructure including compute, storage, network, application, and desktop virtualisation. Our solutions help organizations improve resource utilization, simplify infrastructure management, reduce operational costs, and build flexible, scalable IT environments.',
+  [
+    'Server Virtualisation',
+    'Storage Virtualisation',
+    'Network Virtualisation',
+    'Desktop & Application Virtualisation'
+  ],
+  [
+    'VMware',
+    'Red Hat',
+    'Microsoft',
+    'Cisco',
+    'Dell',
+    'EMC',
+    'NetApp'
+  ]
+),
+  solution('managed-services','Managed Services','managed','Headset','ms.png','We provide comprehensive managed services that help organizations improve IT efficiency, reduce operational complexity, and ensure reliable technology performance. Our proactive approach includes monitoring, management, maintenance, and support of IT infrastructure to enhance availability, security, and business continuity.',['Faster Candidate Deployment'],['ServiceNow']),
   solution('software-licensing','Industry Leading Software','workplace','KeyRound','sla.png','Software licensing optimization.',['Software Asset Management'],['Cisco']),
   solution('application-monitoring','Application Performance Management','managed','Activity','apm.png','Application performance management.',['Our Capabilities'],['Dynatrace']),
   solution('passive-network','Passive Network & Non IT','networking','Cable','pn.png','Passive networking solutions.',['Fiber And Copper Laying'],['CommScope']),

@@ -194,24 +194,30 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenQuoteModal }) => {
       </section>
 
       {/* A SMALL BRIEF ABOUT ARSENAL SECTION */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-white rounded-3xl border border-[#E2E8F0] shadow-md p-8 sm:p-12">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-            <div className="lg:col-span-12 text-center max-w-4xl mx-auto">
-              <span className="inline-flex items-center px-4 py-1 rounded-full text-xs font-semibold uppercase tracking-[0.18em] text-[#0A66C2] bg-[#EAF4FF] border border-blue-200 mb-6">
-  Company Profile
-</span>
+<section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div className="relative overflow-hidden rounded-[32px] border border-[#D8E7FA] bg-gradient-to-br from-white via-[#F8FBFF] to-[#EEF6FF] shadow-xl">
+    {/* Background Glow */}
+    <div className="absolute -top-24 -left-20 h-72 w-72 rounded-full bg-blue-500/10 blur-3xl" />
+    <div className="absolute -bottom-24 -right-20 h-72 w-72 rounded-full bg-cyan-400/10 blur-3xl" />
 
-<h2 className="text-2xl sm:text-4xl font-heading font-extrabold text-[#1E293B] leading-tight mb-8">
-  A Small Brief About Arsenal
-</h2>
-              <p className="text-[#475569] font-body text-base sm:text-lg leading-relaxed text-left sm:text-center">
-                Arsenal Infosolutions is one of the leading and the fastest growing system integration firm in India. The company provides a solution centric approach built around future ready technology areas of Cloud, Enterprise Networks, Collaboration, Workplace Automation and Knowledge Management. Customer satisfaction is the key to all our endeavours and we strive to exceed customer expectations through our experienced technically certified team.
-              </p>
-            </div>
-          </div>
+    <div className="relative z-10 p-8 sm:p-12">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        <div className="lg:col-span-12 text-center max-w-4xl mx-auto">
+          <span className="inline-flex items-center px-4 py-1 rounded-full text-xs font-semibold uppercase tracking-[0.18em] text-[#0A66C2] bg-[#EAF4FF] border border-blue-200 mb-6">
+            Company Profile
+          </span>
+
+          <h2 className="text-2xl sm:text-4xl font-heading font-extrabold text-[#1E293B] leading-tight mb-8">
+            A Small Brief About Arsenal
+          </h2>
+          <p className="text-[#475569] font-body text-base sm:text-lg leading-relaxed text-left sm:text-center">
+            Arsenal Infosolutions is one of the leading and the fastest growing system integration firm in India. The company provides a solution centric approach built around future ready technology areas of Cloud, Enterprise Networks, Collaboration, Workplace Automation and Knowledge Management. Customer satisfaction is the key to all our endeavours and we strive to exceed customer expectations through our experienced technically certified team.
+          </p>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* ARSENAL CORE SOLUTIONS SECTION */}
       <section className="bg-white py-16 border-y border-[#E2E8F0]">
@@ -433,42 +439,48 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenQuoteModal }) => {
       </section>
 
       {/* BOTTOM CONTACT SUMMARY & DEMO REQUEST BANNER */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-white border-2 border-[#0A66C2]/20 rounded-3xl p-8 sm:p-12 shadow-xl text-center space-y-6 relative overflow-hidden">
-          <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[#0A66C2] bg-[#EAF4FF] px-3.5 py-1 rounded-full border border-blue-200">
-            Get in Touch
-          </span>
+<section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div className="relative overflow-hidden rounded-[32px] border border-[#D8E7FA] bg-gradient-to-br from-white via-[#F8FBFF] to-[#EEF6FF] shadow-xl">
+    {/* Background Glow */}
+    <div className="absolute -top-24 -left-20 h-72 w-72 rounded-full bg-blue-500/10 blur-3xl" />
+    <div className="absolute -bottom-24 -right-20 h-72 w-72 rounded-full bg-cyan-400/10 blur-3xl" />
 
-          <h2 className="text-2xl sm:text-4xl font-heading font-extrabold text-[#1E293B] max-w-3xl mx-auto leading-tight">
-            Ready to Partner with Arsenal Infosolutions?
-          </h2>
+    <div className="relative z-10 p-8 sm:p-12 text-center space-y-6">
+      <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[#0A66C2] bg-[#EAF4FF] px-3.5 py-1 rounded-full border border-blue-200">
+        Get in Touch
+      </span>
 
-          <div className="text-[#475569] font-body text-sm sm:text-base max-w-2xl mx-auto space-y-1">
-            <p className="font-semibold text-[#1E293B]">{COMPANY_INFO.address}</p>
-            <p>Email: <a href={`mailto:${COMPANY_INFO.email}`} className="text-[#0A66C2] underline">{COMPANY_INFO.email}</a></p>
-            <p>Phone: {COMPANY_INFO.phone} | Toll Free: {COMPANY_INFO.tollFree}</p>
-          </div>
+      <h2 className="text-2xl sm:text-4xl font-heading font-extrabold text-[#1E293B] max-w-3xl mx-auto leading-tight">
+        Ready to Partner with Arsenal Infosolutions?
+      </h2>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
-            <Link to="/request-demo" className="w-full sm:w-auto">
-              <Button
-                variant="primary"
-                size="lg"
-                icon={<ArrowRight className="w-5 h-5" />}
-                className="w-full"
-              >
-                Request a Demo
-              </Button>
-            </Link>
+      <div className="text-[#475569] font-body text-sm sm:text-base max-w-2xl mx-auto space-y-1">
+        <p className="font-semibold text-[#1E293B]">{COMPANY_INFO.address}</p>
+        <p>Email: <a href={`mailto:${COMPANY_INFO.email}`} className="text-[#0A66C2] underline">{COMPANY_INFO.email}</a></p>
+        <p>Phone: {COMPANY_INFO.phone} | Toll Free: {COMPANY_INFO.tollFree}</p>
+      </div>
 
-            <Link to="/contact">
-              <Button variant="outline" size="lg">
-                Contact Us
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </section>
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
+        <Link to="/request-demo" className="w-full sm:w-auto">
+          <Button
+            variant="primary"
+            size="lg"
+            icon={<ArrowRight className="w-5 h-5" />}
+            className="w-full"
+          >
+            Request a Demo
+          </Button>
+        </Link>
+
+        <Link to="/contact">
+          <Button variant="outline" size="lg">
+            Contact Us
+          </Button>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
     </div>
   );
 };

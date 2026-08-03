@@ -5,8 +5,8 @@ export const SOLUTIONS: Solution[] = [
     "id": "aws-cloud",
     "slug": "aws-cloud",
     "title": "Amazon Web Services (AWS)",
-    "shortDescription": "Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. AWS services are categorized into computing, storage, databases, analytics, machine learning, networking, security, and more, which are delivered through a global network of data centers. ",
-    "fullDescription": "Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. AWS services are categorized into computing, storage, databases, analytics, machine learning, networking, security, and more, which are delivered through a global network of data centers. ",
+    "shortDescription": "We provide comprehensive AWS cloud solutions that help organizations accelerate digital transformation through secure, scalable, and cost-effective cloud infrastructure. Our AWS services enable businesses to design, deploy, migrate, and manage cloud environments with improved flexibility, performance, and reliability. We help organizations leverage AWS capabilities to optimize operations, modernize applications, and achieve faster business growth through innovative cloud technologies. ",
+    "fullDescription": "We provide comprehensive AWS cloud solutions that help organizations accelerate digital transformation through secure, scalable, and cost-effective cloud infrastructure. Our AWS services enable businesses to design, deploy, migrate, and manage cloud environments with improved flexibility, performance, and reliability. We help organizations leverage AWS capabilities to optimize operations, modernize applications, and achieve faster business growth through innovative cloud technologies. ",
     "iconName": "Server",
     "category": "cloud",
     "keyFeatures": [
@@ -29,8 +29,8 @@ export const SOLUTIONS: Solution[] = [
     "id": "application-monitoring",
     "slug": "application-monitoring",
     "title": "Application Performance Management",
-    "shortDescription": "Wde Offer Application Performance Management to measure application performance, availability and user experience and using this data to identify and resolve application issues before they impact customers.",
-    "fullDescription": "Wde Offer Application Performance Management to measure application performance, availability and user experience and using this data to identify and resolve application issues before they impact customers.",
+    "shortDescription": "We provide Application Performance Management solutions that help organizations monitor, analyze, and optimize application performance. Our solutions ensure better application availability, improved user experience, and faster identification of performance-related issues.",
+    "fullDescription": "We provide Application Performance Management solutions that help organizations monitor, analyze, and optimize application performance. Our solutions ensure better application availability, improved user experience, and faster identification of performance-related issues.",
     "iconName": "Zap",
     "category": "managed",
     "keyFeatures": [
@@ -48,8 +48,8 @@ export const SOLUTIONS: Solution[] = [
     "id": "cloud",
     "slug": "cloud",
     "title": "Cloud",
-    "shortDescription": "Cloud based solutions including designing and provisioning across a range of cloud service providers",
-    "fullDescription": "Cloud based solutions including designing and provisioning across a range of cloud service providers",
+    "shortDescription": "We provide cloud consulting, migration, deployment, and management services across leading cloud platforms. Our cloud solutions help businesses improve agility, reduce infrastructure costs, enhance scalability, and accelerate digital transformation.",
+    "fullDescription": "We provide cloud consulting, migration, deployment, and management services across leading cloud platforms. Our cloud solutions help businesses improve agility, reduce infrastructure costs, enhance scalability, and accelerate digital transformation.",
     "iconName": "Server",
     "category": "cloud",
     "keyFeatures": [
@@ -68,14 +68,14 @@ export const SOLUTIONS: Solution[] = [
       "Vmware",
       "Citrix"
     ],
-    "heroImage": "/images/cloud.png"
+    "heroImage": "/images/CLOUD.jpeg"
   },
   {
     "id": "collaboration",
     "slug": "collaboration",
     "title": "Collaboration",
-    "shortDescription": "The future of work is remote. Keep your teams happier, more productive, and more connected than ever before with powerful collaboration tools",
-    "fullDescription": "The future of work is remote. Keep your teams happier, more productive, and more connected than ever before with powerful collaboration tools",
+    "shortDescription": "We provide next-generation collaboration solutions that empower organizations to communicate, connect, and work efficiently across locations. Our comprehensive portfolio includes conferencing, unified communications, contact centre solutions, collaboration endpoints, and intelligent workplace technologies. We help businesses improve productivity, enhance employee experiences, and enable seamless collaboration through secure, scalable, and flexible communication platforms.",
+    "fullDescription": "We provide next-generation collaboration solutions that empower organizations to communicate, connect, and work efficiently across locations. Our comprehensive portfolio includes conferencing, unified communications, contact centre solutions, collaboration endpoints, and intelligent workplace technologies. We help businesses improve productivity, enhance employee experiences, and enable seamless collaboration through secure, scalable, and flexible communication platforms.",
     "iconName": "Laptop",
     "category": "workplace",
     "keyFeatures": [
@@ -100,8 +100,8 @@ export const SOLUTIONS: Solution[] = [
     "id": "cyber-security",
     "slug": "cyber-security",
     "title": "Cyber Security",
-    "shortDescription": "Cyber security is one of the key challenges that is faced by all of us. We help you to build a robust secure framework for addressing all your security concerns with focus on monitoring , reporting and mitigation",
-    "fullDescription": "Cyber security is one of the key challenges that is faced by all of us. We help you to build a robust secure framework for addressing all your security concerns with focus on monitoring , reporting and mitigation",
+    "shortDescription": "Cyber threats are continuously evolving, making security a critical requirement for every organization. We provide advanced cybersecurity solutions focused on threat prevention, monitoring, detection, and response to protect your digital infrastructure, applications, and sensitive business data.",
+    "fullDescription": "Cyber threats are continuously evolving, making security a critical requirement for every organization. We provide advanced cybersecurity solutions focused on threat prevention, monitoring, detection, and response to protect your digital infrastructure, applications, and sensitive business data.",
     "iconName": "ShieldCheck",
     "category": "security",
     "keyFeatures": [
@@ -135,8 +135,8 @@ export const SOLUTIONS: Solution[] = [
     "id": "data-centre",
     "slug": "data-centre",
     "title": "Data Centre",
-    "shortDescription": "Data center build and integration of multiple solutions related to data center, integration of passive and active components including design , supply and execution",
-    "fullDescription": "Data center build and integration of multiple solutions related to data center, integration of passive and active components including design , supply and execution",
+    "shortDescription": "We provide comprehensive data centre solutions designed to help organizations build, optimize, and manage secure, scalable, and high-performing IT environments. Our expertise covers data centre optimization, infrastructure management, and end-to-end support services for critical components. We help businesses improve operational efficiency, reduce infrastructure costs, and ensure maximum availability of their data centre operations.",
+    "fullDescription": "We provide comprehensive data centre solutions designed to help organizations build, optimize, and manage secure, scalable, and high-performing IT environments. Our expertise covers data centre optimization, infrastructure management, and end-to-end support services for critical components. We help businesses improve operational efficiency, reduce infrastructure costs, and ensure maximum availability of their data centre operations.",
     "iconName": "Database",
     "category": "datacenter",
     "keyFeatures": [
@@ -161,8 +161,8 @@ export const SOLUTIONS: Solution[] = [
     "id": "infrastructure",
     "slug": "infrastructure",
     "title": "Infrastructure Management",
-    "shortDescription": "",
-    "fullDescription": "",
+    "shortDescription": "We provide comprehensive infrastructure management solutions that help organizations monitor, manage, and optimize their complete IT environment. Our services include data centre management, enterprise mobility, high-performance computing, network management, and enterprise monitoring solutions. We enable businesses to achieve improved performance, enhanced security, reduced downtime, and efficient management of critical IT infrastructure.",
+    "fullDescription": "We provide comprehensive infrastructure management solutions that help organizations monitor, manage, and optimize their complete IT environment. Our services include data centre management, enterprise mobility, high-performance computing, network management, and enterprise monitoring solutions. We enable businesses to achieve improved performance, enhanced security, reduced downtime, and efficient management of critical IT infrastructure.",
     "iconName": "Layers",
     "category": "datacenter",
     "keyFeatures": [
@@ -189,8 +189,8 @@ export const SOLUTIONS: Solution[] = [
     "id": "managed-services",
     "slug": "managed-services",
     "title": "Managed Services",
-    "shortDescription": "",
-    "fullDescription": "",
+    "shortDescription": "We provide comprehensive managed services that help organizations improve IT efficiency, reduce operational complexity, and ensure reliable technology performance. Our proactive approach includes monitoring, management, maintenance, and support of IT infrastructure to enhance availability, security, and business continuity.",
+    "fullDescription": "We provide comprehensive managed services that help organizations improve IT efficiency, reduce operational complexity, and ensure reliable technology performance. Our proactive approach includes monitoring, management, maintenance, and support of IT infrastructure to enhance availability, security, and business continuity.",
     "iconName": "Headset",
     "category": "managed",
     "keyFeatures": [
@@ -208,8 +208,8 @@ export const SOLUTIONS: Solution[] = [
     "id": "network",
     "slug": "network",
     "title": "Networking",
-    "shortDescription": "Planning , designing (Building HLD's and LLD's) , supply , execution and support of your complete network. We provide single window turnkey networking solutions for best performance",
-    "fullDescription": "Planning , designing (Building HLD's and LLD's) , supply , execution and support of your complete network. We provide single window turnkey networking solutions for best performance",
+    "shortDescription": "We deliver end-to-end networking solutions designed to build secure, scalable, and high-performance IT infrastructures. Our experts specialize in network planning, architecture design, implementation, and support services to help organizations achieve seamless connectivity, improved efficiency, and reliable business operations.",
+    "fullDescription": "We deliver end-to-end networking solutions designed to build secure, scalable, and high-performance IT infrastructures. Our experts specialize in network planning, architecture design, implementation, and support services to help organizations achieve seamless connectivity, improved efficiency, and reliable business operations.",
     "iconName": "Network",
     "category": "networking",
     "keyFeatures": [
@@ -240,8 +240,8 @@ export const SOLUTIONS: Solution[] = [
     "id": "passive-network",
     "slug": "passive-network",
     "title": "Passive Network & Non IT",
-    "shortDescription": "",
-    "fullDescription": "",
+    "shortDescription": "We provide complete passive networking infrastructure solutions including design, supply, installation, and implementation. Our structured cabling solutions ensure reliable connectivity, scalability, and high-performance network infrastructure for modern enterprises.",
+    "fullDescription": "We provide complete passive networking infrastructure solutions including design, supply, installation, and implementation. Our structured cabling solutions ensure reliable connectivity, scalability, and high-performance network infrastructure for modern enterprises.",
     "iconName": "Network",
     "category": "networking",
     "keyFeatures": [
@@ -291,8 +291,8 @@ export const SOLUTIONS: Solution[] = [
     "id": "software-licensing",
     "slug": "software-licensing",
     "title": "Industry Leading Software",
-    "shortDescription": "Working with you to identify the best mix of licensing for minimum annual payouts",
-    "fullDescription": "Working with you to identify the best mix of licensing for minimum annual payouts",
+    "shortDescription": "We help organizations optimize their software investments by providing the right licensing models, software management solutions, and monitoring capabilities. Our solutions enable businesses to achieve better compliance, cost optimization, and efficient management of their software environment.",
+    "fullDescription": "We help organizations optimize their software investments by providing the right licensing models, software management solutions, and monitoring capabilities. Our solutions enable businesses to achieve better compliance, cost optimization, and efficient management of their software environment.",
     "iconName": "CheckCircle2",
     "category": "workplace",
     "keyFeatures": [
@@ -325,8 +325,8 @@ export const SOLUTIONS: Solution[] = [
     "id": "storage-compute",
     "slug": "storage-compute",
     "title": "Storage & Compute",
-    "shortDescription": "We help you with sizing of your storage or compute requirements based on your application or data, add on services such as virtualisation or HCI is provided , supply and execution with overall support",
-    "fullDescription": "We help you with sizing of your storage or compute requirements based on your application or data, add on services such as virtualisation or HCI is provided , supply and execution with overall support",
+    "shortDescription": "We provide advanced storage, compute, and hyper-converged infrastructure solutions designed to support modern enterprise workloads. Our solutions help organizations achieve high availability, improved performance, simplified management, and scalable IT infrastructure to meet evolving business requirements.",
+    "fullDescription": "We provide advanced storage, compute, and hyper-converged infrastructure solutions designed to support modern enterprise workloads. Our solutions help organizations achieve high availability, improved performance, simplified management, and scalable IT infrastructure to meet evolving business requirements.",
     "iconName": "Database",
     "category": "datacenter",
     "keyFeatures": [
@@ -351,28 +351,36 @@ export const SOLUTIONS: Solution[] = [
     "heroImage": "/images/Storage_commute_202607311653.jpeg"
   },
   {
-    "id": "virtualisation",
-    "slug": "virtualisation",
-    "title": "Virtualisation",
-    "shortDescription": "We do the complete virtualisation of the IT infrastructure starting from data center resources such as Compute , storage , network to application and desktop virtualisation",
-    "fullDescription": "We do the complete virtualisation of the IT infrastructure starting from data center resources such as Compute , storage , network to application and desktop virtualisation",
-    "iconName": "Laptop",
-    "category": "datacenter",
-    "keyFeatures": [
-      "Virtualisation"
-    ],
-    "businessBenefits": [],
-    "techPartners": [
-      "Vmware",
-      "Redhat",
-      "Microsoft",
-      "Cisco",
-      "Dell",
-      "Emc",
-      "Netapp"
-    ],
-    "heroImage": "/images/Virtualization_202607311649.jpeg"
-  }
+  "id": "virtualisation",
+  "slug": "virtualisation",
+  "title": "Virtualisation",
+  "shortDescription": "We provide end-to-end virtualisation solutions that transform IT infrastructure by virtualising compute, storage, network, applications, and desktops to improve scalability, efficiency, and resource utilization.",
+  "fullDescription": "Our virtualisation solutions help organizations optimize their IT infrastructure by creating flexible, scalable, and efficient virtual environments. We provide complete virtualisation services across data centre resources including compute, storage, networking, applications, and desktops to simplify management, reduce operational costs, and enhance business agility.",
+  "iconName": "Laptop",
+  "category": "datacenter",
+  "keyFeatures": [
+    "Server Virtualisation",
+    "Storage Virtualisation",
+    "Network Virtualisation",
+    "Desktop & Application Virtualisation"
+  ],
+  "businessBenefits": [
+    "Improved resource utilization and infrastructure efficiency",
+    "Reduced operational and hardware costs",
+    "Enhanced scalability and flexibility",
+    "Simplified IT infrastructure management"
+  ],
+  "techPartners": [
+    "Vmware",
+    "Redhat",
+    "Microsoft",
+    "Cisco",
+    "Dell",
+    "Emc",
+    "Netapp"
+  ],
+  "heroImage": "/images/Virtualization_202607311649.jpeg"
+}
 ];
 
 export const SOLUTION_DETAILS: SolutionDetail[] = [
@@ -385,7 +393,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Solutions",
       "AWS Cloud Computing"
     ],
-    "intro": "Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. AWS services are categorized into computing, storage, databases, analytics, machine learning, networking, security, and more, which are delivered through a global network of data centers. Key aspects of AWS include:",
+    "intro": "We provide comprehensive AWS cloud solutions that help organizations accelerate digital transformation through secure, scalable, and cost-effective cloud infrastructure. Our AWS services enable businesses to design, deploy, migrate, and manage cloud environments with improved flexibility, performance, and reliability. We help organizations leverage AWS capabilities to optimize operations, modernize applications, and achieve faster business growth through innovative cloud technologies.",
     "heroImage": "/images/AWS_202607311736.jpeg",
     "heroAlt": "",
     "services": [
@@ -554,7 +562,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Solutions",
       "Application Performance Management"
     ],
-    "intro": "Wde Offer Application Performance Management to measure application performance, availability and user experience and using this data to identify and resolve application issues before they impact customers.",
+    "intro": "We provide Application Performance Management solutions that help organizations monitor, analyze, and optimize application performance. Our solutions ensure better application availability, improved user experience, and faster identification of performance-related issues.",
     "heroImage": "/images/Application performance manag.jpeg",
     "heroAlt": "",
     "services": [],
@@ -578,7 +586,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
           "Our Capabilities:"
         ],
         "paragraphs": [
-          "Wde Offer Application Performance Management to measure application performance, availability and user experience and using this data to identify and resolve application issues before they impact customers."
+          "We provide Application Performance Management solutions that help organizations monitor, analyze, and optimize application performance. Our solutions ensure better application availability, improved user experience, and faster identification of performance-related issues."
         ],
         "lists": [
           [
@@ -641,44 +649,44 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Solutions",
       "Cloud"
     ],
-    "intro": "Cloud based solutions including designing and provisioning across a range of cloud service providers",
-    "heroImage": "/images/cloud.png",
+    "intro": "We provide cloud consulting, migration, deployment, and management services across leading cloud platforms. Our cloud solutions help businesses improve agility, reduce infrastructure costs, enhance scalability, and accelerate digital transformation.",
+    "heroImage": "/images/CLOUD.jpeg",
     "heroAlt": "",
     "services": [
       {
         "title": "Cloud Productivity Solution",
-        "description": "Our team of globally recognized certified consultants have an expertise in architecture design and implementation services, and build a roadmap for the smooth migration of your crucial files and data from your on-premise setup to the state-of-the-art cloud productivity platform",
-        "image": "/images/migrating.svg",
+        "description": "Our cloud productivity solutions help organizations modernize their workplace by migrating applications, files, and business processes to secure cloud platforms. Our certified consultants design and implement customized cloud strategies for improved collaboration and operational efficiency.",
+        "image": "/images/Cloud 1.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Consulting & Professional Services",
-        "description": "Our holistic and innovative strategies cater to your business needs helping you attain maximum gain from existing and emerging business opportunities. As efficient consultants, our focus is to help you enhance your business output and build a roadmap for the exponential growth of your enterprise",
-        "image": "/images/consulting.svg",
+        "description": "Our cloud consulting services help organizations create effective cloud adoption strategies based on their business objectives. We provide architecture planning, migration guidance, optimization recommendations, and professional support to maximize cloud investments.",
+        "image": "/images/C 2.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Hybrid Cloud Consultancy and Solutions",
-        "description": "We help enterprises create an optimized environment wherein they can store their critical data in the private cloud and the lesser critical data in the public cloud.",
-        "image": "/images/cloud.svg",
+        "description": "We help enterprises build optimized hybrid cloud environments by combining private and public cloud infrastructure. Our solutions enable organizations to securely manage workloads, improve flexibility, and achieve better control over critical applications and data.",
+        "image": "/images/C3.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Private Cloud Consultancy and Solutions",
-        "description": "Our team of globally recognized certified consultants have an expertise in architecture designing and implementation services using OEM products like AWS, Microsoft, VMware, and Citrix",
-        "image": "/images/private.svg",
+        "description": "Our private cloud solutions provide dedicated cloud environments with enhanced security, customization, and performance. We design and implement enterprise-grade private cloud infrastructures using leading technologies to support business-critical applications.",
+        "image": "/images/C4.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Public Cloud Consultancy and Solutions",
-        "description": "We provides the state-of-the-art public cloud services which help enterprises take advantage of the centralization and virtualization that cloud computing offers. Our services accelerate the growth of your business with minimum security threat.",
-        "image": "/images/cloud-storage.svg",
+        "description": "We deliver scalable public cloud solutions that enable organizations to leverage flexible computing resources, advanced security capabilities, and cost-efficient infrastructure models. Our services help businesses accelerate innovation while maintaining operational reliability.",
+        "image": "/images/C5.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Remote Management Services",
-        "description": "Our services include ceaseless surveillance of servers for accessibility and utilization, incident & problem management, OS health management and upgrades, user management services",
-        "image": "/images/connection.svg",
+        "description": "Our remote management services ensure continuous monitoring and maintenance of cloud infrastructure. We provide server monitoring, performance management, incident handling, operating system updates, and user administration to maintain smooth business operations.",
+        "image": "/images/C6.jpeg",
         "imageAlt": ""
       }
     ],
@@ -713,12 +721,12 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
           "Cloud"
         ],
         "paragraphs": [
-          "Cloud based solutions including designing and provisioning across a range of cloud service providers"
+          "We provide cloud consulting, migration, deployment, and management services across leading cloud platforms. Our cloud solutions help businesses improve agility, reduce infrastructure costs, enhance scalability, and accelerate digital transformation."
         ],
         "lists": [],
         "images": [
           {
-            "src": "/images/cloud.png",
+            "src": "/images/CLOUD.jpeg",
             "alt": ""
           }
         ]
@@ -820,37 +828,37 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
     "services": [
       {
         "title": "Conferencing",
-        "description": "Transform not just how you meet, but how you work. We provides the best conferencing tool for the job and the workplace.",
+        "description": "Transform the way your teams communicate and collaborate with advanced conferencing solutions designed for modern workplaces. We provide reliable and scalable conferencing platforms that enhance virtual meetings, improve productivity, and enable seamless communication across locations and devices.",
         "image": "/images/Business_meeting_video_conferenc…_202607311724.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Contact Centre",
-        "description": "We offers a comprehensive portfolio of products, including contact center, calling, meetings, team collaboration, and devices",
+        "description": "We provide comprehensive contact centre solutions that combine calling, meetings, customer engagement, team collaboration, and communication devices into a unified platform. Our solutions help organizations improve customer experience, streamline operations, and deliver efficient communication services.",
         "image": "/images/collaboration-Contact_center_202607311540.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Collaboration Endpoints",
-        "description": "Improve collaboration with intelligent endpoints designed for every use case. Get the latest technology and increase collaboration adoption with a simple, affordable subscription",
+        "description": "Enhance workplace collaboration with intelligent collaboration endpoints designed for different business requirements and use cases. We provide advanced devices and solutions that improve meeting experiences, increase collaboration adoption, and enable flexible communication through simple and scalable deployment models.",
         "image": "/images/collaboration_endpoin…_202607311543.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Unified Communications",
-        "description": "Work intuitively. Bring people together anywhere, on any device, with integrated collaboration Get market-leading unified communications delivered on-premises, in the cloud, and any stage in between",
+        "description": "We provide unified communication solutions that connect people across locations, devices, and platforms through integrated collaboration technologies. Our solutions support on-premises, cloud, and hybrid environments, enabling organizations to improve communication efficiency and create a connected digital workplace.",
         "image": "/images/Collaboration-Unified_Communication_202607311549.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Team Collaboration",
-        "description": "Transform how you work with Webex. Improve your workstreams and stay connected with a full suite of team collaboration features for calling, messaging, meetings, and integration",
+        "description": "Transform the way teams work together with modern collaboration platforms that bring messaging, calling, meetings, file sharing, and integrations into one seamless experience. Our solutions help organizations improve teamwork, increase productivity, and maintain continuous connectivity across business environments.",
         "image": "/images/team_collaboration_202607311552.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Cognitive Collaboration Solutions",
-        "description": "Collaboration creates the possibility of remote collaboration that's simple, reliable and secure. Video conferencing solution designed to communicate, ideate, iterate from anywhere, anytime.",
+        "description": "We provide intelligent collaboration solutions that enable simple, secure, and reliable communication from anywhere. Our cognitive collaboration technologies enhance remote teamwork through advanced video conferencing, intelligent experiences, and tools that support better communication, innovation, and decision-making.",
         "image": "/images/collaboration_solutio…_202607311558.jpeg",
         "imageAlt": ""
       }
@@ -886,7 +894,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
           "Collaboration"
         ],
         "paragraphs": [
-          "The future of work is remote. Keep your teams happier, more productive, and more connected than ever before with powerful collaboration tools"
+          "We provide next-generation collaboration solutions that empower organizations to communicate, connect, and work efficiently across locations. Our comprehensive portfolio includes conferencing, unified communications, contact centre solutions, collaboration endpoints, and intelligent workplace technologies. We help businesses improve productivity, enhance employee experiences, and enable seamless collaboration through secure, scalable, and flexible communication platforms."
         ],
         "lists": [],
         "images": [
@@ -987,37 +995,37 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Solutions",
       "Cyber Security"
     ],
-    "intro": "Cyber security is one of the key challenges that is faced by all of us. We help you to build a robust secure framework for addressing all your security concerns with focus on monitoring , reporting and mitigation",
+    "intro": "Cyber threats are continuously evolving, making security a critical requirement for every organization. We provide advanced cybersecurity solutions focused on threat prevention, monitoring, detection, and response to protect your digital infrastructure, applications, and sensitive business data.",
     "heroImage": "/images/Cybersecurity_experts_monitoring…_202607311726.jpeg",
     "heroAlt": "",
     "services": [
       {
         "title": "Endpoint Security",
-        "description": "End point protection solution comprising anti virus , threat detection and response,device management and data leak protection based on your environment and threat landscape",
+        "description": "Our endpoint security solutions protect devices such as laptops, desktops, and mobile endpoints against malware, ransomware, unauthorized access, and cyber threats. We provide advanced antivirus, endpoint detection and response (EDR), device management, and data protection capabilities.",
         "image": "/images/cyber-endpoint.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Cloud Security",
-        "description": "Providing multi layer security across public , private and hybrid cloud environment through a range of solutions from world leading OEM's based on your threat landscape",
+        "description": "We provide multi-layer cloud security solutions to safeguard public, private, and hybrid cloud environments. Our security framework helps organizations protect applications, workloads, identities, and sensitive information while maintaining compliance with industry standards.",
         "image": "/images/Cloud_sec_202607311729.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Vulnerability Assessment",
-        "description": "Using mix of tools and solutions for identifying threats and vulnerabilities in existing set up and addressing the same using best of bread solutions",
+        "description": "Our vulnerability assessment services identify security weaknesses within your IT infrastructure through advanced scanning tools and security analysis techniques. We help organizations discover vulnerabilities, reduce risks, and implement effective remediation strategies.",
         "image": "/images/Vulnerability_assessment_202607311731.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Security Architecture and Implementation",
-        "description": "End to security architechture framework with log corelation for a better monitoring , management and effective response",
+        "description": "We design and implement robust security architectures aligned with business requirements and industry best practices. Our solutions include security monitoring, threat intelligence integration, log correlation, and incident response frameworks to strengthen overall cybersecurity posture.",
         "image": "/images/Security_architects_managing_ent…_202607311732.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Managed Access & Identity Controls",
-        "description": "Multi level secure authentication , single sign on and identity based access to resources based on industry standards and best practices",
+        "description": "Our identity and access management solutions provide secure authentication, authorization, and user access control across enterprise environments. We help organizations implement single sign-on, role-based access management, and identity governance solutions.",
         "image": "/images/cyber-managedaccess.jpeg",
         "imageAlt": ""
       }
@@ -1228,25 +1236,25 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Solutions",
       "Data Centre"
     ],
-    "intro": "Data center build and integration of multiple solutions related to data center, integration of passive and active components including design , supply and execution",
+    "intro": "We provide comprehensive data centre solutions designed to help organizations build, optimize, and manage secure, scalable, and high-performing IT environments. Our expertise covers data centre optimization, infrastructure management, and end-to-end support services for critical components. We help businesses improve operational efficiency, reduce infrastructure costs, and ensure maximum availability of their data centre operations.",
     "heroImage": "/images/data_center_202607311602.jpeg",
     "heroAlt": "",
     "services": [
       {
         "title": "Data center optimisation",
-        "description": "Optimisation of the data center components for more cost effective usage and deployment",
+        "description": "We provide data centre optimization services to improve the efficiency, performance, and cost-effectiveness of existing infrastructure. Our solutions focus on optimizing critical data centre components, resource utilization, power efficiency, and deployment strategies to deliver a more agile and scalable IT environment.",
         "image": "/images/data_center_optimization_202607311602.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Efficient operation",
-        "description": "Integrated view for ease of management and scalability",
+        "description": "Our efficient operation solutions provide a centralized and integrated view of data centre infrastructure for simplified management and improved scalability. We help organizations achieve better visibility, streamlined operations, and enhanced control over critical IT resources.",
         "image": "/images/Data_center-operations_202607311604.jpeg",
         "imageAlt": ""
       },
       {
         "title": "360 degree services for DC components",
-        "description": "Round the clock service for all critical components to be deployed in DC",
+        "description": "We provide complete lifecycle services for all critical data centre components, ensuring reliable performance and continuous availability. Our round-the-clock support includes monitoring, maintenance, troubleshooting, and management services to keep data centre operations secure, efficient, and uninterrupted.",
         "image": "/images/data_center-360_202607311606.jpeg",
         "imageAlt": ""
       }
@@ -1395,31 +1403,31 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
     "services": [
       {
         "title": "Data Center Solutions",
-        "description": "Data center build and integration of multiple solutions related to data center",
+        "description": "We provide complete data centre build and integration services by combining multiple infrastructure components such as servers, storage, networking, virtualization, security, and power solutions. Our experts design and deploy scalable, secure, and reliable data centre environments aligned with business requirements.",
         "image": "/images/Infra-Data center soln.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Enterprise Mobility Solutions",
-        "description": "Anytime anywhere any device secure connectivity to all stakeholders in an organisation",
+        "description": "Our enterprise mobility solutions enable secure anytime, anywhere access across multiple devices for employees, customers, and business stakeholders. We help organizations improve workforce productivity, enhance collaboration, and ensure secure connectivity through flexible mobility solutions.",
         "image": "/images/Enterprise_professionals_working…_202607311630.jpeg",
         "imageAlt": ""
       },
       {
         "title": "High Performance Computing Solutions",
-        "description": "HPC Infiniband as well as IP based solutions with complete sizing , design , supply and execution",
+        "description": "We provide high-performance computing solutions including Infiniband and IP-based architectures with complete sizing, design, supply, and implementation services. Our HPC solutions are designed to support demanding workloads requiring high-speed processing, advanced computing capabilities, and optimized performance.",
         "image": "/images/HPC_high_perf_computing_202607311617.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Enterprise Network Solutions",
-        "description": "Network monitoring , management and help desk integration for round the clock support",
+        "description": "We provide enterprise network solutions that include network monitoring, management, troubleshooting, and help desk integration for continuous support. Our solutions help organizations maintain secure, reliable, and high-performing network environments with improved availability and operational efficiency.",
         "image": "/images/Enterprise_Network_soln_202607311619.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Enterprise Management Solutions (EMS)",
-        "description": "Turnkey IT management using best in class EMS solution for your requirement",
+        "description": "We provide turnkey enterprise management solutions using industry-leading EMS platforms to simplify IT infrastructure monitoring and management. Our solutions offer centralized visibility, automation, performance monitoring, and proactive management of critical IT resources to improve efficiency and reliability.",
         "image": "/images/Enterprise_management_soln_202607311620.jpeg",
         "imageAlt": ""
       }
@@ -1578,13 +1586,13 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
     "services": [
       {
         "title": "Faster Candidate Deployment",
-        "description": "We ensure candidate deployment within 10 days of issuing of the order, and ensure that different government and corporate projects run uninterruptedly.",
+        "description": "Our faster candidate deployment services enable organizations to quickly onboard and provide IT resources with the required infrastructure, applications, and access. We streamline deployment processes to reduce operational delays, improve workforce productivity, and ensure employees can start contributing efficiently from day one.",
         "image": "/images/Candidate_deployment_202607311646.jpeg",
         "imageAlt": ""
       },
       {
         "title": "RMS for Employee Lifecycle Management",
-        "description": "Our exclusive Resource Management System helps with complete employee lifecycle management, right from their hire to retire",
+        "description": "Our Remote Management Services (RMS) provide complete lifecycle management of IT infrastructure through continuous monitoring, maintenance, and support. We help organizations manage their technology assets efficiently by improving performance, reducing downtime, optimizing resources, and extending infrastructure lifecycle.",
         "image": "/images/RMS_for_employees_202607311647.jpeg",
         "imageAlt": ""
       }
@@ -1671,37 +1679,37 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Solutions",
       "Networking"
     ],
-    "intro": "Planning , designing (Building HLD's and LLD's) , supply , execution and support of your complete network. We provide single window turnkey networking solutions for best performance",
+    "intro": "We deliver end-to-end networking solutions designed to build secure, scalable, and high-performance IT infrastructures. Our experts specialize in network planning, architecture design, implementation, and support services to help organizations achieve seamless connectivity, improved efficiency, and reliable business operations.",
     "heroImage": "/images/networkinhero.png",
     "heroAlt": "",
     "services": [
       {
         "title": "Data Centre Network",
-        "description": "Data center network design , SDN enablement , end to end virtualisation and providing a seamless integration with compute resources.",
+        "description": "Our data centre networking solutions help enterprises create highly available, scalable, and agile network environments. We provide advanced network architecture design, software-defined networking (SDN), virtualization capabilities, and seamless integration with compute and storage platforms for enhanced performance and operational efficiency.",
         "image": "/images/networkin1.png",
         "imageAlt": ""
       },
       {
         "title": "LAN & WAN Solutions",
-        "description": "End to end LAN & WAN solutions using latest SDN led technology framework for a robust and scalable set up.",
+        "description": "We provide comprehensive LAN and WAN networking solutions that enable secure and reliable connectivity across offices, branches, and enterprise locations. Our solutions leverage modern networking technologies to deliver high availability, optimized bandwidth utilization, improved network performance, and future-ready infrastructure scalability.",
         "image": "/images/LAN-WAN SOLN.png",
         "imageAlt": ""
       },
       {
         "title": "Fiber to home",
-        "description": "Fiber to home deployment with a complete ownership of passive as well as active design along with execution.",
+        "description": "Our Fiber-to-the-Home solutions provide high-speed connectivity infrastructure with complete ownership of design, deployment, and execution. We support organizations with robust passive and active network architecture to ensure reliable connectivity, better user experience, and efficient network management.",
         "image": "/images/FIBRE TO HOME.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Good Performance Wireless",
-        "description": "Wireless deployment using best in class heat mapping survey tools, access point mapping as per user density and controlling both on premise as well on cloud.",
+        "description": "We design and deploy enterprise-grade wireless networks using advanced survey and planning methodologies. Our wireless solutions include heat mapping, access point optimization, user-density analysis, and cloud-based management capabilities to provide seamless connectivity across workplaces and campuses.",
         "image": "/images/GOOD PERF WIRELESS.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Virtual Private Network (VPN)",
-        "description": "End to end VPN enablement for providing a secure access to employees and other stakeholders to data resources and applications.",
+        "description": "Our VPN solutions enable secure remote access for employees, partners, and stakeholders while protecting critical business applications and resources. We implement encrypted communication frameworks that ensure secure connectivity, data privacy, and uninterrupted access from anywhere.",
         "image": "/images/VPN.jpeg",
         "imageAlt": ""
       }
@@ -1894,25 +1902,25 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
     "services": [
       {
         "title": "Fiber and copper laying",
-        "description": "We do complete site survey and suggest a bill of material as per your locations and node requirements along with the exact path layout",
+        "description": "We provide complete fiber and copper cabling solutions including detailed site surveys, infrastructure assessment, and network planning. Based on location requirements and node connectivity needs, we prepare optimized bill of materials (BOM) and accurate path layouts to ensure reliable, scalable, and high-performance network connectivity.",
         "image": "/images/Passive net-Fibre and copper.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Power solutions",
-        "description": "UPS requirements for your datacenter as well as for a multi UPS set up is provided based on a power calculation of your devices",
+        "description": "We provide customized power solutions for data centres and enterprise IT environments based on detailed power requirement calculations. Our solutions include UPS sizing, multi-UPS configurations, and power distribution planning to ensure continuous power availability, reliability, and efficient operation of critical infrastructure.",
         "image": "/images/Passive net- power soln.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Racks",
-        "description": "Racks as per requirement are suggested with PDU's and other associated components",
+        "description": "We provide rack solutions designed according to infrastructure requirements, equipment specifications, and space availability. Our solutions include suitable racks, Power Distribution Units (PDUs), cable management accessories, and associated components to ensure organized, secure, and efficient equipment deployment.",
         "image": "/images/Passive net- Racks.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Chemical earthing",
-        "description": "Chemical earthing is done as per the requirement",
+        "description": "We provide reliable chemical earthing solutions designed to ensure electrical safety and protect critical IT infrastructure. Our earthing solutions help maintain proper grounding, reduce electrical risks, and provide enhanced protection for networking equipment, data centres, and enterprise facilities.",
         "image": "/images/Passive net- chemical earthing.jpeg",
         "imageAlt": ""
       }
@@ -1959,7 +1967,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
         "headings": [
           "Passive Network & Non IT"
         ],
-        "paragraphs": [],
+        "paragraphs": ["We provide complete passive networking infrastructure solutions including design, supply, installation, and implementation. Our structured cabling solutions ensure reliable connectivity, scalability, and high-performance network infrastructure for modern enterprises."],
         "lists": [],
         "images": [
           {
@@ -2065,19 +2073,19 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
     "services": [
       {
         "title": "Surveillance",
-        "description": "Our CCTV solution design based on requirement , proposing the right set of equipment and execution of the same",
+        "description": "We provide advanced surveillance solutions designed to enhance security and monitoring across offices, campuses, data centres, and critical facilities. Our solutions include CCTV system planning, camera selection, installation, configuration, and integration to provide real-time visibility and improved security management.",
         "image": "/images/Physical_safety-_Survellience_202607311528.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Access control system",
-        "description": "Physical access control solution of campuses",
+        "description": "We provide secure access control solutions that help organizations manage and monitor entry and exit points effectively. Our solutions include biometric systems, card-based access, and centralized access management to ensure authorized access and enhanced protection of critical areas.",
         "image": "/images/Physical_safety-_access_control_system_202607311531.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Analytics",
-        "description": "Implementing and configuration of the backend analytics tools.",
+        "description": "We provide intelligent security analytics solutions that help organizations analyze surveillance data and improve operational awareness. Our analytics capabilities enable features such as activity monitoring, event detection, reporting, and actionable insights for better security decision-making.",
         "image": "/images/Physical_safety-analytics_202607311535.jpeg",
         "imageAlt": ""
       }
@@ -2202,25 +2210,25 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Solutions",
       "Industry Leading Software"
     ],
-    "intro": "Working with you to identify the best mix of licensing for minimum annual payouts",
+    "intro": "We help organizations optimize their software investments by providing the right licensing models, software management solutions, and monitoring capabilities. Our solutions enable businesses to achieve better compliance, cost optimization, and efficient management of their software environment.",
     "heroImage": "/images/Industsry_leading_202607311634.jpeg",
     "heroAlt": "",
     "services": [
       {
         "title": "Software Asset Management",
-        "description": "We have adopted proven asset management methodologies to help our clients identify their business assets and ensure that they are correctly and effectively licensed.",
+        "description": "We provide comprehensive software asset management solutions that help organizations effectively track, manage, and optimize their software assets. Our proven methodologies enable better visibility, license compliance, cost control, and efficient utilization of software resources.",
         "image": "/images/Asset_mgt_202607311636.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Software Licensing Assessment Services",
-        "description": "Our software licensing assessment services are critical for businesses to obtain data about software and take immediate action",
+        "description": "Our software licensing assessment services help organizations analyze their existing software usage and identify opportunities for optimization. We provide detailed assessments to improve license compliance, reduce unnecessary expenses, and ensure effective software utilization.",
         "image": "/images/licensing_as…_202607311637.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Self-Service Monitoring",
-        "description": "Enjoy uninterrupted access to automated cloud monitoring and analytics. Get the best tools to procure, provision and manage cloud solutions.",
+        "description": "Our self-service monitoring solutions provide automated visibility into software and cloud environments through advanced monitoring and analytics capabilities. Organizations can efficiently manage resources, improve performance, and make informed technology decisions with real-time insights.",
         "image": "/images/Self_service_monitoring…_202607311641.jpeg",
         "imageAlt": ""
       }
@@ -2427,55 +2435,55 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
       "Solutions",
       "Storage Compute & HCI"
     ],
-    "intro": "We help you with sizing of your storage or compute requirements based on your application or data, add on services such as virtualisation or HCI is provided , supply and execution with overall support",
+    "intro": "We provide advanced storage, compute, and hyper-converged infrastructure solutions designed to support modern enterprise workloads. Our solutions help organizations achieve high availability, improved performance, simplified management, and scalable IT infrastructure to meet evolving business requirements.",
     "heroImage": "/images/Storage_commute_202607311653.jpeg",
     "heroAlt": "",
     "services": [
       {
         "title": "Server infrastrcture",
-        "description": "We do server sizing i.e racks/blades , supply and do execution",
+        "description": "We provide complete server infrastructure solutions including server sizing, rack and blade server selection, supply, installation, and execution. Our solutions are designed to deliver high-performance, scalable, and reliable computing infrastructure based on business and workload requirements.",
         "image": "/images/Server_infrastrcture_202607311658.jpeg",
         "imageAlt": ""
       },
       {
-        "title": "Storage infrastruture",
-        "description": "We do storage sizing based on greenfield requirement or sizing augmentation of existing storage, supply and execution of the same",
+        "title": "Enterprise Storage Solutions",
+        "description": "We provide end-to-end storage infrastructure solutions including storage sizing for new (greenfield) deployments and expansion of existing environments. Our experts design, supply, and implement scalable storage solutions that ensure high availability, optimized performance, and efficient data management.",
         "image": "/images/Storage_Infra_202607311700.jpeg",
         "imageAlt": ""
       },
       {
-        "title": "Virtualisation",
-        "description": "End to to end virtualisation of storage and compute",
+        "title": "Storage Virtualization",
+        "description": "Our storage virtualization solutions simplify storage management by combining multiple storage resources into a unified and flexible infrastructure. This helps enterprises improve resource utilization, reduce operational complexity, and achieve better scalability.",
         "image": "/images/virtualization_202607311705.jpeg",
         "imageAlt": ""
       },
       {
-        "title": "Back up solution",
-        "description": "We provide best of breed solutions for back up requirement",
+        "title": "Data Backup & Recovery Solutions",
+        "description": "We deliver reliable data backup and recovery solutions that protect organizations from data loss, cyber threats, hardware failures, and unexpected disasters. Our solutions ensure secure data protection, faster recovery, and business continuity through automated backup strategies.",
         "image": "/images/backup_202607311707.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Operating system",
-        "description": "OS as per requirement is provided based on requirement",
+        "description": "We provide operating system solutions based on specific business and application requirements. Our services include OS selection, deployment, configuration, and optimization to ensure stable, secure, and efficient operation of enterprise infrastructure.",
         "image": "/images/OS_202607311708.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Private Cloud Solutions",
-        "description": "We deploy cloud-like infrastructure on-premises with lower costs, more control, and improved security",
+        "description": "We deploy private cloud infrastructure that delivers cloud-like flexibility within an organization's own data centre. Our solutions provide enhanced security, greater control, improved performance, and cost efficiency while enabling scalable and agile IT operations.",
         "image": "/images/Enterprise_private_cloud_facility_202607311711.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Public cloud",
-        "description": "We help you choose an as-a-service option from the largest HCI cloud ecosystem for faster speed of deployment and less time spent managing infrastructure",
+        "description": "We help organizations adopt the right public cloud solutions through flexible as-a-service models. Our expertise enables faster deployment, improved scalability, reduced infrastructure management efforts, and access to leading cloud ecosystems.",
         "image": "/images/Public_cloud_environment_202607311715.jpeg",
         "imageAlt": ""
       },
       {
         "title": "Hybrid cloud capability",
-        "description": "We help manage a mix of VM- and container-based applications, deployed across a mix of data center, public cloud and edge environments",
+        "description": "We enable organizations to build hybrid cloud environments by integrating private and public cloud platforms. Our hybrid cloud solutions provide flexibility, scalability, and seamless workload management while maintaining security, compliance, and operational control.",
         "image": "/images/WhatsApp Image 2026-07-31 at 5.18.26 PM.jpeg",
         "imageAlt": ""
       }
@@ -2516,7 +2524,7 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
           "HCI"
         ],
         "paragraphs": [
-          "We help you with sizing of your storage or compute requirements based on your application or data, add on services such as virtualisation or HCI is provided , supply and execution with overall support",
+          "We provide advanced storage, compute, and hyper-converged infrastructure solutions designed to support modern enterprise workloads. Our solutions help organizations achieve high availability, improved performance, simplified management, and scalable IT infrastructure to meet evolving business requirements.",
           "We do a tightly integrated virtualisation of storage, compute, network apart from providing advanced management capability"
         ],
         "lists": [],
@@ -2640,109 +2648,170 @@ export const SOLUTION_DETAILS: SolutionDetail[] = [
     ]
   },
   {
-    "id": "virtualisation",
-    "slug": "virtualisation",
-    "title": "Virtualisation",
-    "breadcrumb": [
-      "Home",
-      "Solutions",
-      "Virtualisation"
-    ],
-    "intro": "We do the complete virtualisation of the IT infrastructure starting from data center resources such as Compute , storage , network to application and desktop virtualisation",
-    "heroImage": "/images/Virtualization_202607311649.jpeg",
-    "heroAlt": "",
-    "services": [],
-    "partners": [
-      {
-        "src": "/partners/vmware.png",
-        "alt": ""
-      },
-      {
-        "src": "/partners/redhat.png",
-        "alt": ""
-      },
-      {
-        "src": "/partners/microsoft.png",
-        "alt": ""
-      },
-      {
-        "src": "/partners/cisco.png",
-        "alt": ""
-      },
-      {
-        "src": "/partners/dell.png",
-        "alt": ""
-      },
-      {
-        "src": "/partners/emc.png",
-        "alt": ""
-      },
-      {
-        "src": "/partners/netapp.png",
-        "alt": ""
-      }
-    ],
-    "sections": [
-      {
-        "classes": [
-          "section-row"
-        ],
-        "headings": [
-          "Virtualisation"
-        ],
-        "paragraphs": [
-          "We do the complete virtualisation of the IT infrastructure starting from data center resources such as Compute , storage , network to application and desktop virtualisation"
-        ],
-        "lists": [],
-        "images": [
-          {
-            "src": "/images/Virtualization_202607311649.jpeg",
-            "alt": ""
-          }
-        ]
-      },
-      {
-        "classes": [
-          "section-row"
-        ],
-        "headings": [
-          "Partners"
-        ],
-        "paragraphs": [],
-        "lists": [],
-        "images": [
-          {
-            "src": "/partners/vmware.png",
-            "alt": ""
-          },
-          {
-            "src": "/partners/redhat.png",
-            "alt": ""
-          },
-          {
-            "src": "/partners/microsoft.png",
-            "alt": ""
-          },
-          {
-            "src": "/partners/cisco.png",
-            "alt": ""
-          },
-          {
-            "src": "/partners/dell.png",
-            "alt": ""
-          },
-          {
-            "src": "/partners/emc.png",
-            "alt": ""
-          },
-          {
-            "src": "/partners/netapp.png",
-            "alt": ""
-          }
-        ]
-      }
-    ]
-  }
+  "id": "virtualisation",
+  "slug": "virtualisation",
+  "title": "Virtualisation",
+  "breadcrumb": [
+    "Home",
+    "Solutions",
+    "Virtualisation"
+  ],
+  "intro": "We provide complete virtualisation solutions for IT infrastructure including compute, storage, network, application, and desktop virtualisation. Our solutions help organizations improve resource utilization, simplify management, reduce operational costs, and build scalable and flexible IT environments.",
+  "heroImage": "/images/Virtualization_202607311649.jpeg",
+  "heroAlt": "",
+  "services": [
+    {
+      "title": "Server Virtualisation",
+      "description": "We provide server virtualisation solutions that enable efficient utilization of computing resources by creating multiple virtual environments on a single physical infrastructure. Our solutions improve scalability, flexibility, performance, and infrastructure management.",
+      "image": "/images/server_virtualization…_202608031356.jpeg",
+      "imageAlt": ""
+    },
+    {
+      "title": "Storage Virtualisation",
+      "description": "Our storage virtualisation solutions combine multiple storage resources into a unified environment to simplify management and improve availability. We help organizations optimize storage utilization, scalability, and data accessibility.",
+      "image": "/images/Enterprise_storage_virtualizatio…_202608031354.jpeg",
+      "imageAlt": ""
+    },
+    {
+      "title": "Network Virtualisation",
+      "description": "We provide network virtualisation solutions that enable flexible, software-driven network environments. Our solutions improve network efficiency, simplify operations, enhance security, and support modern enterprise infrastructure.",
+      "image": "/images/Enterprise_network_virtualizatio…_202608031357.jpeg",
+      "imageAlt": ""
+    },
+    {
+      "title": "Desktop & Application Virtualisation",
+      "description": "Our desktop and application virtualisation solutions enable secure access to applications and desktops from anywhere. We help organizations improve workforce mobility, simplify deployment, and enhance user experience.",
+      "image": "/images/desktop_202608031403.jpeg",
+      "imageAlt": ""
+    }
+  ],
+  "partners": [
+    {
+      "src": "/partners/vmware.png",
+      "alt": ""
+    },
+    {
+      "src": "/partners/redhat.png",
+      "alt": ""
+    },
+    {
+      "src": "/partners/microsoft.png",
+      "alt": ""
+    },
+    {
+      "src": "/partners/cisco.png",
+      "alt": ""
+    },
+    {
+      "src": "/partners/dell.png",
+      "alt": ""
+    },
+    {
+      "src": "/partners/emc.png",
+      "alt": ""
+    },
+    {
+      "src": "/partners/netapp.png",
+      "alt": ""
+    }
+  ],
+  "sections": [
+    {
+      "classes": [
+        "section-row"
+      ],
+      "headings": [
+        "Virtualisation"
+      ],
+      "paragraphs": [
+        "We provide complete virtualisation of IT infrastructure covering compute, storage, network, application, and desktop environments. Our solutions help organizations improve resource utilization, reduce infrastructure complexity, and achieve better scalability."
+      ],
+      "lists": [],
+      "images": [
+        {
+          "src": "/images/Virtualization_202607311649.jpeg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "classes": [
+        "section-row"
+      ],
+      "headings": [
+        "Server Virtualisation",
+        "Storage Virtualisation",
+        "Network Virtualisation",
+        "Desktop & Application Virtualisation"
+      ],
+      "paragraphs": [
+        "We provide server virtualisation solutions that improve computing efficiency and simplify workload management.",
+        "Our storage virtualisation solutions help organizations manage storage resources efficiently with improved scalability and availability.",
+        "Our network virtualisation solutions provide flexible and scalable network environments with simplified management.",
+        "Our desktop and application virtualisation solutions enable secure access to applications and desktops from any location."
+      ],
+      "lists": [],
+      "images": [
+        {
+          "src": "/images/server.svg",
+          "alt": ""
+        },
+        {
+          "src": "/images/server-2.svg",
+          "alt": ""
+        },
+        {
+          "src": "/images/augmented-reality.svg",
+          "alt": ""
+        },
+        {
+          "src": "/images/operating-system.svg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "classes": [
+        "section-row"
+      ],
+      "headings": [
+        "Partners"
+      ],
+      "paragraphs": [],
+      "lists": [],
+      "images": [
+        {
+          "src": "/partners/vmware.png",
+          "alt": ""
+        },
+        {
+          "src": "/partners/redhat.png",
+          "alt": ""
+        },
+        {
+          "src": "/partners/microsoft.png",
+          "alt": ""
+        },
+        {
+          "src": "/partners/cisco.png",
+          "alt": ""
+        },
+        {
+          "src": "/partners/dell.png",
+          "alt": ""
+        },
+        {
+          "src": "/partners/emc.png",
+          "alt": ""
+        },
+        {
+          "src": "/partners/netapp.png",
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}
 ];
 
 export const SOLUTION_DETAIL_MAP: Record<string, SolutionDetail> = SOLUTION_DETAILS.reduce((map, item) => {
